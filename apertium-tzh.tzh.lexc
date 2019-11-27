@@ -1,0 +1,120 @@
+Multichar_Symbols 
+
+%<v%>
+%<tv%>
+
+%<s_sg1%>
+%<s_sg2%>
+%<s_sg3%>
+%<s_pl1%>
+%<s_pl2%>
+%<s_pl3%>
+
+%<o_sg1%>
+%<o_sg2%>
+%<o_sg3%>
+%<o_pl1%>
+%<o_pl2%>
+%<o_pl3%>
+
+%{s%}
+%{w%}
+%{k%}
+
+@U.S_PRS.1@
+@U.S_PRS.2@
+@U.S_PRS.3@
+@U.S_NBR.SG@
+@U.S_NBR.PL@
+
+LEXICON Root
+
+Prefixes ; 
+Miscellaneous ; 
+
+LEXICON Prefixes 
+
+PERS-ERG-PREF ; 
+
+!LEXICON PERS-ABS-IV
+!
+!%<s_sg1%>:%>on # ; 
+!%<s_sg2%>:%>at # ; 
+!%<s_sg3%>:%> # ; 
+!%<s_pl1%>:%>otik # ; 
+!%<s_pl3%>:%> # ; 
+!%<s_pl3%>:%>ik # ; 
+
+LEXICON PERS-ABS-TV-1
+@U.S_NBR.SG@%<o_sg1%>:@U.S_NBR.SG@%>on # ; 
+@U.S_NBR.PL@%<o_sg1%>:@U.S_NBR.PL@%>on%>ik # ; 
+%<o_pl1%>:%>otik # ; 
+
+LEXICON PERS-ABS-TV-23
+
+@U.S_NBR.SG@%<o_sg2%>:@U.S_NBR.SG@%>at # ; 
+@U.S_NBR.PL@%<o_sg2%>:@U.S_NBR.PL@%>at%>ik # ; 
+%<o_sg3%>:%> # ; 
+%<o_pl2%>:%>ex # ; 
+
+LEXICON PERS-ERG-PREF
+
+@U.S_PRS.1@:@U.S_PRS.1@h%{k%}%> TV ; 
+@U.S_PRS.2@:@U.S_PRS.2@a%{w%}%> TV ; 
+@U.S_PRS.3@:@U.S_PRS.3@%{s%}%> TV ; 
+
+LEXICON PERS-ERG-1-SUFF
+
+@U.S_NBR.PL@%<s_pl1%>:@U.S_NBR.PL@%>tik PERS-ABS-TV-23 ; 
+@U.S_NBR.SG@%<s_sg1%>:@U.S_NBR.SG@%>    PERS-ABS-TV-23 ; 
+
+LEXICON PERS-ERG-2-SUFF
+
+@U.S_NBR.SG@%<s_sg2%>:@U.S_NBR.SG@%>    PERS-ABS-TV-1 ; 
+@U.S_NBR.PL@%<s_pl2%>:@U.S_NBR.PL@%>    PERS-ABS-TV-1 ; 
+
+LEXICON PERS-ERG-3-SUFF
+
+@U.S_NBR.SG@%<s_sg3%>:@U.S_NBR.SG@%>    PERS-ABS-TV-23 ; 
+@U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>    PERS-ABS-TV-23 ; 
+
+LEXICON PERS-ERG-SUFF 
+
+@U.S_PRS.1@:@U.S_PRS.1@ PERS-ERG-1-SUFF ;
+@U.S_PRS.2@:@U.S_PRS.2@ PERS-ERG-2-SUFF ;
+@U.S_PRS.3@:@U.S_PRS.3@ PERS-ERG-3-SUFF ;
+
+LEXICON V-TV 
+
+%<v%>%<tv%>: PERS-ERG-SUFF ; 
+
+LEXICON Miscellaneous
+
+ya%<impf%>:ya # ; 
+la%<perf%>:la # ; 
+
+LEXICON TV
+
+tʼun:tʼun V-TV ; ! "seguir"
+il:il V-TV ; ! "ver"
+
+
+!i. ya    h-tʼun-at      I am following you                                   *
+!iv. ya   h-tʼun-tik-0   We are following him                                 *
+!v. ya    h-tʼun-tik-at  We are following you                                 * 
+!vii. ya  h-tʼun-tik-ex  We are following you (pl.)                           * 
+!ii. ya   a-tʼun-on      You are following me                                 *  
+!vi. ya   a-tʼun-otik    You are following us /or/ you (pl.) are following us *  * 
+!viii. ya a-tʼun-on-ik   You (pl.) are following me                           *
+!iii. ya  s-tʼun-otik    He is following us        
+!ix. ya   s-tʼun-at-ik   They are following you
+
+!i. ya hk-il-at I see you
+!ii. ya aw-il-on You see me
+!iii. ya y-il-otik He sees us
+!iv. ya hk-il-tik-0 We see him
+!v. ya hk-il-tik-at We see you
+!vi. ya aw-il-otik You see us or You (pl.) see us
+!vii. ya hk-il-tik-ex We see you (pl.)
+!viii. ya aw-il-on-ik You (pl.) see me
+!ix. ya y-il-at-ik They see you 
