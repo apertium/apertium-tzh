@@ -1,9 +1,8 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Multichar_Symbols 
 
 %<n%>
-%<adj%>
 %<v%>
+
 %<tv%>
 
 %<s_sg1%>
@@ -30,18 +29,19 @@ Multichar_Symbols
 @U.S_NBR.SG@
 @U.S_NBR.PL@
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON Root
 
 Prefixes ; 
 Miscellaneous ; 
 Sustantivos ;
-Adjetivos ; 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Conjunciones ; 
+Determinantes ; 
+Adverbios ; 
 
 LEXICON Prefixes 
 
 PERS-ERG-PREF ; 
+POSS ; 
 
 !LEXICON PERS-ABS-IV
 !
@@ -91,17 +91,39 @@ LEXICON PERS-ERG-SUFF
 @U.S_PRS.2@:@U.S_PRS.2@ PERS-ERG-2-SUFF ;
 @U.S_PRS.3@:@U.S_PRS.3@ PERS-ERG-3-SUFF ;
 
+LEXICON POSS 
+!j-nah “my house”
+!‘a-nah “your house”
+!s-nah “his house”
+
+@U.P_PRS.1@:@U.P_PRS.1@j%> Sustantivos ; 
+@U.P_PRS.2@:@U.P_PRS.2@a%> Sustantivos ; 
+@U.P_PRS.3@:@U.P_PRS.3@s%> Sustantivos ; 
+
 LEXICON V-TV 
 
 %<v%>%<tv%>: PERS-ERG-SUFF ; 
 
+LEXICON POSS-SUFF
+
+@U.P_PRS.1@%<px1sg%>:@U.P_PRS.1@ # ; 
+@U.P_PRS.2@%<px2sg%>:@U.P_PRS.2@ # ; 
+@U.P_PRS.3@%<px3sg%>:@U.P_PRS.3@ # ; 
+ 
+
 LEXICON N 
 
 %<n%>: # ; 
+%<n%>: POSS-SUFF  ; 
+%<n%>%+e%<def%>:%>e # ; 
 
-LEXICON A 
+LEXICON CC
 
-%<adj%>: # ; 
+%<cnjcoo%>: # ; 
+
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -109,14 +131,66 @@ LEXICON Miscellaneous
 
 ya%<impf%>:ya # ; 
 la%<perf%>:la # ; 
+bal%<qst%>:bal # ;
+!ʼay ! "hay"
+!maʼyuk ! "no hay"
+
+ix%<adv%>:ix # ; ! "ya"
+
+ta%<pr%>:ta # ; 
+
+LEXICON Conjunciones
+
+me:me CC ; ! "o"
+
+LEXICON Determinantes
+
+te%<det%>:te # ; 
 
 LEXICON Sustantivos 
 
-tsʼiʼ:tsʼiʼ N ; ! "perro"
+pim:pim N ; ! "grasa"
+tat:tat N ; ! "padre"
+bah:bah N ; ! ""
+tʼul:tʼul N ; ! "conejo"
+siʼ:siʼ N ; ! "leña"
+puy:puy N ; ! "caracol"
+waj:waj N ; ! "tortilla"
+kʼahkʼ:kʼahkʼ N ; ! "fuego"
+chʼahil:chʼahil N ; ! "humo"
 
-LEXICON Adjetivos 
+ʼuh:ʼuh N ; ! "luna"
 
-sak:sak A ; ! "blanco"
+ʼechej:ʼechej N ; ! "axe"
+sotsʼ:sotsʼ N ; ! "bat"
+pohp:pohp N ; ! "mat"
+!naht:naht N ; ! ""
+
+nah:nah N ; ! "casa"
+
+beh:beh N ; ! "camino"
+
+pahay:pahay N ; ! "skunk" ! Dial/Bachajón 
+paay:paay N ; ! "skunk" ! Dial/Oxchuc 
+chojakʼ:chojakʼ N ; ! "red"
+
+makom:makom N ; ! "blackberry"
+chitam:chitam N ; ! "pig"
+bahlam:bahlam N ; ! "tiger"
+mahtan:mahtan N ; ! "gift"
+kohtom:kohtom N ; ! "badger"
+
+takʼin:takʼin N ; ! "dinero"
+haʼ:haʼ N ; ! "agua"
+ʼoxom:ʼoxom N ; ! "pot"
+tulukʼ:tulukʼ N ; ! "turkey"
+ʼixim:ʼixim N ; ! "corn"
+tsʼunun:tsʼunun N ; ! "hummingbird"
+jojochʼ:jojochʼ N ; ! "cornhusk"
+
+LEXICON Adverbios 
+
+banti:banti ADV-ITG ; ! "dónde"
 
 LEXICON TV
 
