@@ -29,6 +29,9 @@ Multichar_Symbols
 @U.S_NBR.SG@
 @U.S_NBR.PL@
 
+@P.TAM.Impf@
+@R.TAM.Impf@
+
 LEXICON Root
 
 Prefixes ; 
@@ -37,11 +40,13 @@ Sustantivos ;
 Conjunciones ; 
 Determinantes ; 
 Adverbios ; 
+Adjetivos ;
 
 LEXICON Prefixes 
 
 PERS-ERG-PREF ; 
 POSS ; 
+ASP-PREF ; 
 
 !LEXICON PERS-ABS-IV
 !
@@ -91,18 +96,30 @@ LEXICON PERS-ERG-SUFF
 @U.S_PRS.2@:@U.S_PRS.2@ PERS-ERG-2-SUFF ;
 @U.S_PRS.3@:@U.S_PRS.3@ PERS-ERG-3-SUFF ;
 
+LEXICON ASP-PREF
+
+@P.TAM.Impf@:@P.TAM.Impf@x%> IV ; 
+
 LEXICON POSS 
 !j-nah “my house”
-!‘a-nah “your house”
+!ʼa-nah “your house”
 !s-nah “his house”
 
 @U.P_PRS.1@:@U.P_PRS.1@j%> Sustantivos ; 
-@U.P_PRS.2@:@U.P_PRS.2@a%> Sustantivos ; 
+@U.P_PRS.2@:@U.P_PRS.2@ʼa%> Sustantivos ; 
 @U.P_PRS.3@:@U.P_PRS.3@s%> Sustantivos ; 
 
 LEXICON V-TV 
 
 %<v%>%<tv%>: PERS-ERG-SUFF ; 
+
+LEXICON V-IV 
+
+%<v%>%<iv%>: ASP-SUFF ; 
+
+LEXICON ASP-SUFF
+
+@R.TAM.Impf@%<impf%>:@R.TAM.Impf@ # ; 
 
 LEXICON POSS-SUFF
 
@@ -117,9 +134,23 @@ LEXICON N
 %<n%>: POSS-SUFF  ; 
 %<n%>%+e%<def%>:%>e # ; 
 
+LEXICON N-lum
+
+%<n%>: # ; 
+%<n%>: POSS-SUFF  ; 
+%<n%>%+e%<def%>:%>e # ; 
+
+LEXICON A 
+
+%<adj%>: # ; 
+
 LEXICON CC
 
 %<cnjcoo%>: # ; 
+
+LEXICON ADV
+
+%<adv%>: # ; 
 
 LEXICON ADV-ITG
 
@@ -161,6 +192,9 @@ chʼahil:chʼahil N ; ! "humo"
 
 ʼuh:ʼuh N ; ! "luna"
 
+haʼ:haʼ N ; ! "agua"
+ʼul:ʼul N ; ! "atole"
+
 ʼechej:ʼechej N ; ! "axe"
 sotsʼ:sotsʼ N ; ! "bat"
 pohp:pohp N ; ! "mat"
@@ -188,15 +222,108 @@ tulukʼ:tulukʼ N ; ! "turkey"
 tsʼunun:tsʼunun N ; ! "hummingbird"
 jojochʼ:jojochʼ N ; ! "cornhusk"
 
+winik:winik N ; ! "hombre, persona"
+
+ʼikʼ:ʼikʼ N ; ! "viento"
+
+lum:lum N-lum ; ! ""
+
+LEXICON Adjetivos
+
+mukʼ:mukʼ A ; ! "grande"
+lek:lek A ; ! "bueno"
+tut:tut A ; ! "pequeño"
+
+
 LEXICON Adverbios 
 
 banti:banti ADV-ITG ; ! "dónde"
+
+nax:nax ADV ; ! "sólo"
+nix:nix ADV ; ! "sólo"
 
 LEXICON TV
 
 tʼun:tʼun V-TV ; ! "seguir"
 il:il V-TV ; ! "ver"
+ʼichʼ:ʼichʼ V-TV ; ! "coger"
+ʼut:ʼut V-TV ; ! "mandar hacer"
+tiʼ:tiʼ V-TV ; ! "morder"
+weʼ:weʼ V-TV ; ! "comer tortillas"
+tiʼ:tiʼ V-TV ; ! "comer carne"
+loʼ:loʼ V-TV ; ! "comer verduras"
+tam:tam V-TV ; ! "recoger"
+mil:mil V-TV ; ! "matar"
+ten:ten V-TV ; ! "tirar"
+maj:maj V-TV ; ! "pegar"
+mulan:mulan V-TV ; ! "gustar"
 
+ʼaʼiy:ʼaʼiy V-TV ; ! "hear,  understand"
+ʼaʼiy:ʼaʼiy V-TV ; ! "understand,  hear"
+ʼakʼ:ʼakʼ V-TV ; ! "give"
+chon:chon V-TV ; ! "sell"
+ʼehan:ʼehan V-TV ; ! "carry corn"
+jep:jep V-TV ; ! "split"
+kʼan:kʼan V-TV ; ! "want"
+kʼej:kʼej V-TV ; ! "guard,  store"
+kʼeluy:kʼeluy V-TV ; ! "look"
+kuch:kuch V-TV ; ! "load,  weigh down"
+kʼux:kʼux V-TV ; ! "eat (something hard)"
+kuy:kuy V-TV ; ! "think (mistakenly)"
+laban:laban V-TV ; ! "ridicule,  mock"
+leh:leh V-TV ; ! "look for"
+lekʼ:lekʼ V-TV ; ! "lick"
+loʼlay:loʼlay V-TV ; ! "deceive"
+majan:majan V-TV ; ! "borrow"
+maliy:maliy V-TV ; ! "wait"
+man:man V-TV ; ! "buy"
+mes:mes V-TV ; ! "sweep"
+muktay:muktay V-TV ; ! "spy on,  observe"
+naʼ:naʼ V-TV ; ! "know,  remember"
+nakʼ:nakʼ V-TV ; ! "hide"
+nojes:nojes V-TV ; ! "fill"
+nop:nop V-TV ; ! "learn"
+pas:pas V-TV ; ! "do,  make"
+pas:pas V-TV ; ! "make"
+pay:pay V-TV ; ! "boil"
+sap:sap V-TV ; ! "wash"
+suhtes:suhtes V-TV ; ! "return (something)"
+tah:tah V-TV ; ! "find"
+tes:tes V-TV ; ! "comb"
+tij:tij V-TV ; ! "touch"
+toj:toj V-TV ; ! "pay"
+tsal:tsal V-TV ; ! "win,  conquer,  defeat"
+tseʼlay:tseʼlay V-TV ; ! "laugh at"
+tsob:tsob V-TV ; ! "gather"
+tuy:tuy V-TV ; ! "saw"
+ʼuchʼ:ʼuchʼ V-TV ; ! "drink"
+ʼulʼatay:ʼulʼatay V-TV ; ! "visit"
+ʼut:ʼut V-TV ; ! "scold"
+wihkʼes:wihkʼes V-TV ; ! "open"
+xiʼ:xiʼ V-TV ; ! "fear"
+
+
+LEXICON IV 
+
+suht:suht V-IV ; ! "volver"
+hil:hil V-IV ; ! "quedar"
+ʼoch:ʼoch V-IV ; ! "entrar"
+moh:moh V-IV ; ! "levantarse"
+chikan:chikan V-IV ; ! "estar visible"
+laj:laj V-IV ; ! "desgastar"
+yahl:yahl V-IV ; ! "caerse"
+
+bah:bah V-IV ; ! "ir"
+
+mukʼub:mukʼub V-IV ; ! ""
+lekub:lekub V-IV ; ! ""
+haʼub:haʼub V-IV ; ! ""
+
+koh:koh V-IV ; ! "bajar"
+moh:moh V-IV ; ! ""
+pʼijub:pʼijub V-IV ; ! ""
+ʼokʼ:ʼokʼ V-IV ; ! ""
+kʼax:kʼax V-IV ; ! ""
 
 !i. ya    h-tʼun-at      I am following you                                   *
 !iv. ya   h-tʼun-tik-0   We are following him                                 *
