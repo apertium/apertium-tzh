@@ -2,25 +2,11 @@ Alphabet
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z ʼ 
 
-%{s%}:s %{s%}:y
-%{k%}:k %{k%}:0
-%{w%}:w %{w%}:0
-
 %>:0 
 
 ; 
 
-Sets
-
-Cns = b c d f g h j k l m n p q r s t v w x y z ʼ ;
-
 Rules
 
-"Realisation of {k}"
-%{k%}:0 <=> _ %>: Cns ; 
-
-"Realisation of {s}"
-%{s%}:s <=> _ %>: Cns ; 
-
-"Realisation of {w}"
-%{w%}:0 <=> _ %>: Cns ; 
+"Remove morpheme boundary"
+%>:0 <=> _ ; 
