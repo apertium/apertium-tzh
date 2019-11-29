@@ -15,5 +15,5 @@ tzh.twol.hfst: apertium-tzh.tzh.twol
 tzh.lexc.hfst: apertium-tzh.tzh.lexc
 	hfst-lexc --Werror $< -o $@
 
-tzh.mor.twol.hfst: tzh.mor.twol
-	hfst-twolc tzh.mor.twol -o tzh.mor.twol.hfst
+tzh.mor.twol.hfst: apertium-tzh.tzh.mor.twol
+	hfst-twolc apertium-tzh.tzh.mor.twol -o tzh.mor.twol.hfst
