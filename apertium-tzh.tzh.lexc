@@ -23,6 +23,9 @@ Multichar_Symbols
 %{w%}
 %{k%}
 
+@U.P_PRS.1@
+@U.P_PRS.2@
+@U.P_PRS.3@
 @U.S_PRS.1@
 @U.S_PRS.2@
 @U.S_PRS.3@
@@ -31,6 +34,8 @@ Multichar_Symbols
 
 @P.TAM.Impf@
 @R.TAM.Impf@
+@P.TAM.Past@
+@R.TAM.Past@
 
 LEXICON Root
 
@@ -41,6 +46,7 @@ Conjunciones ;
 Determinantes ; 
 Adverbios ; 
 Adjetivos ;
+Punctuación ; 
 
 LEXICON Prefixes 
 
@@ -72,6 +78,7 @@ LEXICON PERS-ABS-TV-23
 LEXICON PERS-ERG-PREF
 
 @U.S_PRS.1@:@U.S_PRS.1@h%{k%}%> TV ; 
+@U.S_PRS.1@:@U.S_PRS.1@j%{k%}%> TV ; 
 @U.S_PRS.2@:@U.S_PRS.2@a%{w%}%> TV ; 
 @U.S_PRS.3@:@U.S_PRS.3@%{s%}%> TV ; 
 
@@ -99,6 +106,7 @@ LEXICON PERS-ERG-SUFF
 LEXICON ASP-PREF
 
 @P.TAM.Impf@:@P.TAM.Impf@x%> IV ; 
+@P.TAM.Past@:@P.TAM.Past@ IV ; 
 
 LEXICON POSS 
 !j-nah “my house”
@@ -120,6 +128,7 @@ LEXICON V-IV
 LEXICON ASP-SUFF
 
 @R.TAM.Impf@%<impf%>:@R.TAM.Impf@ # ; 
+@R.TAM.Past@%<past%>:@R.TAM.Past@ # ; 
 
 LEXICON POSS-SUFF
 
@@ -163,12 +172,13 @@ LEXICON Miscellaneous
 ya%<impf%>:ya # ; 
 la%<perf%>:la # ; 
 bal%<qst%>:bal # ;
-!ʼay ! "hay"
-!maʼyuk ! "no hay"
 
 ix%<adv%>:ix # ; ! "ya"
 
 ta%<pr%>:ta # ; 
+
+ʼay%<part%>:ʼay # ; ! "hay"
+maʼyuk%<part%>:maʼyuk # ; ! "no hay"
 
 LEXICON Conjunciones
 
@@ -225,6 +235,8 @@ jojochʼ:jojochʼ N ; ! "cornhusk"
 winik:winik N ; ! "hombre, persona"
 
 ʼikʼ:ʼikʼ N ; ! "viento"
+
+kʼal:kʼal N ; ! "milpa"
 
 lum:lum N-lum ; ! ""
 
@@ -344,3 +356,34 @@ kʼax:kʼax V-IV ; ! ""
 !vii. ya hk-il-tik-ex We see you (pl.)
 !viii. ya aw-il-on-ik You (pl.) see me
 !ix. ya y-il-at-ik They see you 
+
+LEXICON Punctuación
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%¡%<sent%>:%¡ # ; 
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+%–%<guio%>:%– # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ; 
+%¿%<lquest%>:%¿ # ; 
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+（%<lpar%>:（ # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+）%<rpar%>:） # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
+…%<sent%>:… # ;
+
