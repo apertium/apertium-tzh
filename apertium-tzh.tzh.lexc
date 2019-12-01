@@ -1,3 +1,5 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Multichar_Symbols 
 
 %<n%>
@@ -32,10 +34,14 @@ Multichar_Symbols
 @U.S_NBR.SG@
 @U.S_NBR.PL@
 
+@R.P_PRS@
+
 @P.TAM.Impf@
 @R.TAM.Impf@
 @P.TAM.Past@
 @R.TAM.Past@
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
 
@@ -43,10 +49,13 @@ Prefixes ;
 Miscellaneous ; 
 Sustantivos ;
 Conjunciones ; 
+Propios ; 
 Determinantes ; 
 Adverbios ; 
 Adjetivos ;
 Punctuación ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Prefixes 
 
@@ -115,6 +124,7 @@ LEXICON POSS
 
 @U.P_PRS.1@:@U.P_PRS.1@j%> Sustantivos ; 
 @U.P_PRS.2@:@U.P_PRS.2@ʼa%> Sustantivos ; 
+@U.P_PRS.2@:@U.P_PRS.2@a%> Sustantivos ; 
 @U.P_PRS.3@:@U.P_PRS.3@s%> Sustantivos ; 
 
 LEXICON V-TV 
@@ -130,24 +140,31 @@ LEXICON ASP-SUFF
 @R.TAM.Impf@%<impf%>:@R.TAM.Impf@ # ; 
 @R.TAM.Past@%<past%>:@R.TAM.Past@ # ; 
 
+LEXICON E 
+
+%+e%<def%>:%>e # ; 
+# ; 
+
 LEXICON POSS-SUFF
 
-@U.P_PRS.1@%<px1sg%>:@U.P_PRS.1@ # ; 
-@U.P_PRS.2@%<px2sg%>:@U.P_PRS.2@ # ; 
-@U.P_PRS.3@%<px3sg%>:@U.P_PRS.3@ # ; 
+@U.P_PRS.1@%<px1sg%>:@U.P_PRS.1@ E ; 
+@U.P_PRS.2@%<px2sg%>:@U.P_PRS.2@ E ; 
+@U.P_PRS.3@%<px3sg%>:@U.P_PRS.3@ E ; 
  
 
 LEXICON N 
 
-%<n%>: # ; 
-%<n%>: POSS-SUFF  ; 
-%<n%>%+e%<def%>:%>e # ; 
+%<n%>: E ; 
+@R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
 
 LEXICON N-lum
 
-%<n%>: # ; 
-%<n%>: POSS-SUFF  ; 
-%<n%>%+e%<def%>:%>e # ; 
+%<n%>: E ; 
+@R.P_PRS@%<n%>:@R.P_PRS@%>al POSS-SUFF  ; 
+
+LEXICON NP-TOP
+
+%<np%>%<top%>: # ; 
 
 LEXICON A 
 
@@ -240,6 +257,10 @@ kʼal:kʼal N ; ! "milpa"
 
 lum:lum N-lum ; ! ""
 
+LEXICON Propios
+
+Israel:Israel NP-TOP ; ! ""
+
 LEXICON Adjetivos
 
 mukʼ:mukʼ A ; ! "grande"
@@ -314,6 +335,7 @@ tuy:tuy V-TV ; ! "saw"
 wihkʼes:wihkʼes V-TV ; ! "open"
 xiʼ:xiʼ V-TV ; ! "fear"
 
+kuenta:kuenta V-TV ; ! ""
 
 LEXICON IV 
 
