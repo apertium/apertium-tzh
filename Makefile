@@ -17,3 +17,7 @@ tzh.lexc.hfst: apertium-tzh.tzh.lexc
 
 tzh.mor.twol.hfst: apertium-tzh.tzh.mor.twol
 	hfst-twolc apertium-tzh.tzh.mor.twol -o tzh.mor.twol.hfst
+	
+
+tzh.seg.hfst: tzh.mor.hfst tzh.gen.hfst
+	hfst-compose -1 tzh.mor.hfst -2 tzh.gen.hfst -o tzh.seg.hfst 
