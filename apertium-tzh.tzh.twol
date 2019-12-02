@@ -4,7 +4,9 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ʼ
 
 %{s%}:s %{s%}:y
 %{k%}:k %{k%}:0
+%{h%}:h %{h%}:0
 %{w%}:w %{w%}:0
+%{V%}:a %{V%}:e %{V%}:i %{V%}:o %{V%}:u
 
 %> 
 
@@ -19,8 +21,19 @@ Rules
 "Realisation of {k}"
 %{k%}:0 <=> _ %>: Cns ; 
 
+"Realisation of {h}"
+%{h%}:0 <=> Cns: %>: _ ; 
+
+! w i n i k > {h}:0 e t i k
+
 "Realisation of {s}"
 %{s%}:s <=> _ %>: Cns ; 
 
 "Realisation of {w}"
 %{w%}:0 <=> _ %>: Cns ; 
+
+"Realisation of {V}"
+%{V%}:Vy <=> Vx Cns+ %>: _ ; 
+         where Vx in ( a e i o u )
+               Vy in ( a e i o u ) 
+         matched ; 

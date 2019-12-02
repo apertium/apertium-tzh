@@ -1,4 +1,6 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! A N A L I Z A D O R    M O R F O L Ó G I C O    P A R A    T S E L T A L  !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Multichar_Symbols 
 
@@ -23,7 +25,9 @@ Multichar_Symbols
 
 %{s%}
 %{w%}
+%{h%}
 %{k%}
+%{V%} 
 
 @U.P_PRS.1@
 @U.P_PRS.2@
@@ -35,6 +39,7 @@ Multichar_Symbols
 @U.S_NBR.PL@
 
 @R.P_PRS@
+@D.P_PRS@
 
 @P.TAM.Impf@
 @R.TAM.Impf@
@@ -50,9 +55,11 @@ Miscellaneous ;
 Sustantivos ;
 Conjunciones ; 
 Propios ; 
+Pronombres ;
 Determinantes ; 
 Adverbios ; 
 Adjetivos ;
+Números ; 
 Punctuación ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -63,6 +70,11 @@ PERS-ERG-PREF ;
 POSS ; 
 ASP-PREF ; 
 
+LEXICON K 
+
+%+ix%<adv%>:%>ix # ; 
+                 # ;
+
 !LEXICON PERS-ABS-IV
 !
 !%<s_sg1%>:%>on # ; 
@@ -72,45 +84,45 @@ ASP-PREF ;
 !%<s_pl3%>:%> # ; 
 !%<s_pl3%>:%>ik # ; 
 
-LEXICON PERS-ABS-TV-1
-@U.S_NBR.SG@%<o_sg1%>:@U.S_NBR.SG@%>on # ; 
-@U.S_NBR.PL@%<o_sg1%>:@U.S_NBR.PL@%>on%>ik # ; 
+LEXICON PERS-ABS-TV-1                       ! Conjunto B
+@U.S_NBR.SG@%<o_sg1%>:@U.S_NBR.SG@%>on      K ; 
+@U.S_NBR.PL@%<o_sg1%>:@U.S_NBR.PL@%>on%>ik  K ; 
 %<o_pl1%>:%>otik # ; 
 
-LEXICON PERS-ABS-TV-23
+LEXICON PERS-ABS-TV-23                      ! Conjunto B
 
-@U.S_NBR.SG@%<o_sg2%>:@U.S_NBR.SG@%>at # ; 
-@U.S_NBR.PL@%<o_sg2%>:@U.S_NBR.PL@%>at%>ik # ; 
-%<o_sg3%>:%> # ; 
-%<o_pl2%>:%>ex # ; 
+@U.S_NBR.SG@%<o_sg2%>:@U.S_NBR.SG@%>at      K ; 
+@U.S_NBR.PL@%<o_sg2%>:@U.S_NBR.PL@%>at%>ik  K ; 
+            %<o_sg3%>:%>                    K ; 
+            %<o_pl2%>:%>ex                  K ; 
 
-LEXICON PERS-ERG-PREF
+LEXICON PERS-ERG-PREF                       ! Conjunto A 
 
-@U.S_PRS.1@:@U.S_PRS.1@h%{k%}%> TV ; 
-@U.S_PRS.1@:@U.S_PRS.1@j%{k%}%> TV ; 
-@U.S_PRS.2@:@U.S_PRS.2@a%{w%}%> TV ; 
-@U.S_PRS.3@:@U.S_PRS.3@%{s%}%> TV ; 
+!@U.S_PRS.1@:@U.S_PRS.1@h%{k%}%>            TV ; 
+@U.S_PRS.1@:@U.S_PRS.1@j%{k%}%>             TV ; 
+@U.S_PRS.2@:@U.S_PRS.2@a%{w%}%>             TV ; 
+@U.S_PRS.3@:@U.S_PRS.3@%{s%}%>              TV ; 
 
-LEXICON PERS-ERG-1-SUFF
+LEXICON PERS-ERG-1-SUFF                     ! Conjunto A
 
-@U.S_NBR.PL@%<s_pl1%>:@U.S_NBR.PL@%>tik PERS-ABS-TV-23 ; 
-@U.S_NBR.SG@%<s_sg1%>:@U.S_NBR.SG@%>    PERS-ABS-TV-23 ; 
+@U.S_NBR.PL@%<s_pl1%>:@U.S_NBR.PL@%>tik     PERS-ABS-TV-23 ; 
+@U.S_NBR.SG@%<s_sg1%>:@U.S_NBR.SG@%>        PERS-ABS-TV-23 ; 
 
-LEXICON PERS-ERG-2-SUFF
+LEXICON PERS-ERG-2-SUFF                     ! Conjunto A
 
-@U.S_NBR.SG@%<s_sg2%>:@U.S_NBR.SG@%>    PERS-ABS-TV-1 ; 
-@U.S_NBR.PL@%<s_pl2%>:@U.S_NBR.PL@%>    PERS-ABS-TV-1 ; 
+@U.S_NBR.SG@%<s_sg2%>:@U.S_NBR.SG@%>        PERS-ABS-TV-1 ; 
+@U.S_NBR.PL@%<s_pl2%>:@U.S_NBR.PL@%>        PERS-ABS-TV-1 ; 
 
-LEXICON PERS-ERG-3-SUFF
+LEXICON PERS-ERG-3-SUFF                     ! Conjunto A 
 
-@U.S_NBR.SG@%<s_sg3%>:@U.S_NBR.SG@%>    PERS-ABS-TV-23 ; 
-@U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>    PERS-ABS-TV-23 ; 
+@U.S_NBR.SG@%<s_sg3%>:@U.S_NBR.SG@%>        PERS-ABS-TV-23 ; 
+@U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>        PERS-ABS-TV-23 ; 
 
-LEXICON PERS-ERG-SUFF 
+LEXICON PERS-ERG-SUFF                       ! Conjunto A
 
-@U.S_PRS.1@:@U.S_PRS.1@ PERS-ERG-1-SUFF ;
-@U.S_PRS.2@:@U.S_PRS.2@ PERS-ERG-2-SUFF ;
-@U.S_PRS.3@:@U.S_PRS.3@ PERS-ERG-3-SUFF ;
+@U.S_PRS.1@:@U.S_PRS.1@                     PERS-ERG-1-SUFF ;
+@U.S_PRS.2@:@U.S_PRS.2@                     PERS-ERG-2-SUFF ;
+@U.S_PRS.3@:@U.S_PRS.3@                     PERS-ERG-3-SUFF ;
 
 LEXICON ASP-PREF
 
@@ -143,24 +155,37 @@ LEXICON ASP-SUFF
 LEXICON E 
 
 %+e%<def%>:%>e # ; 
-# ; 
-
+               # ; 
 LEXICON POSS-SUFF
 
 @U.P_PRS.1@%<px1sg%>:@U.P_PRS.1@ E ; 
 @U.P_PRS.2@%<px2sg%>:@U.P_PRS.2@ E ; 
 @U.P_PRS.3@%<px3sg%>:@U.P_PRS.3@ E ; 
+@U.P_PRS.1@%<px1pl%>%<in%>:@U.P_PRS.1@%>tik E ; 
+@U.P_PRS.1@%<px1pl%>%<ex%>:@U.P_PRS.1@%>kotik E ; 
+@U.P_PRS.2@%<px2pl%>:@U.P_PRS.2@%>ik E ; 
+@U.P_PRS.3@%<px3pl%>:@U.P_PRS.3@%>ik E ; 
  
 
 LEXICON N 
 
 %<n%>: E ; 
+%<n%>%<pl%>:%>%{h%}etik E ; 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
+
+LEXICON N-pueblo
+
+N ; 
 
 LEXICON N-lum
 
 %<n%>: E ; 
 @R.P_PRS@%<n%>:@R.P_PRS@%>al POSS-SUFF  ; 
+
+
+LEXICON PRON-PERS 
+
+%<prn%>%<pers%>: # ; 
 
 LEXICON NP-TOP
 
@@ -168,7 +193,9 @@ LEXICON NP-TOP
 
 LEXICON A 
 
-%<adj%>: # ; 
+@D.P_PRS@%<adj%>:@D.P_PRS@ # ; 
+@D.P_PRS@%<adj%>%<subst%>:@D.P_PRS@%>%{V%}l # ; 
+@R.P_PRS@%<adj%>%<subst%>:@R.P_PRS@%>%{V%}l POSS-SUFF ; 
 
 LEXICON CC
 
@@ -181,6 +208,10 @@ LEXICON ADV
 LEXICON ADV-ITG
 
 %<adv%>%<itg%>: # ; 
+
+LEXICON NUM
+
+%<num%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -205,7 +236,20 @@ LEXICON Determinantes
 
 te%<det%>:te # ; 
 
+LEXICON Pronombres 
+
+tukel:tukel PRON-PERS ; 
+
+LEXICON Números 
+
+jun:jun NUM ; ! "uno"
+
 LEXICON Sustantivos 
+
+Adjetivos ; 
+Comunes ; 
+
+LEXICON Comunes 
 
 pim:pim N ; ! "grasa"
 tat:tat N ; ! "padre"
@@ -257,6 +301,17 @@ kʼal:kʼal N ; ! "milpa"
 
 lum:lum N-lum ; ! ""
 
+pueblo:pueblo N-pueblo ; ! "pueblo"
+soldado:soldado N-pueblo ; ! "pueblo"
+
+sakerdote:sakerdote N-pueblo ; ! ""
+prínkipal:prínkipal N-pueblo ; ! ""
+dios:dios N-pueblo ; ! ""
+filisteo:filisteo N-pueblo ; ! ""
+judío:judío N-pueblo ; ! ""
+karreta:karreta N-pueblo ; ! ""
+
+
 LEXICON Propios
 
 Israel:Israel NP-TOP ; ! ""
@@ -291,33 +346,31 @@ ten:ten V-TV ; ! "tirar"
 maj:maj V-TV ; ! "pegar"
 mulan:mulan V-TV ; ! "gustar"
 
-ʼaʼiy:ʼaʼiy V-TV ; ! "hear,  understand"
-ʼaʼiy:ʼaʼiy V-TV ; ! "understand,  hear"
-ʼakʼ:ʼakʼ V-TV ; ! "give"
-chon:chon V-TV ; ! "sell"
+ʼaʼiy:ʼaʼiy V-TV ; ! "entender, oír"
+ʼakʼ:ʼakʼ V-TV ; ! "dar"
+chon:chon V-TV ; ! "vender"
 ʼehan:ʼehan V-TV ; ! "carry corn"
 jep:jep V-TV ; ! "split"
-kʼan:kʼan V-TV ; ! "want"
+kʼan:kʼan V-TV ; ! "querer"
 kʼej:kʼej V-TV ; ! "guard,  store"
-kʼeluy:kʼeluy V-TV ; ! "look"
-kuch:kuch V-TV ; ! "load,  weigh down"
-kʼux:kʼux V-TV ; ! "eat (something hard)"
+kʼeluy:kʼeluy V-TV ; ! "ver"
+kuch:kuch V-TV ; ! "cargar"
+kʼux:kʼux V-TV ; ! "comer (algo duro)"
 kuy:kuy V-TV ; ! "think (mistakenly)"
-laban:laban V-TV ; ! "ridicule,  mock"
-leh:leh V-TV ; ! "look for"
+laban:laban V-TV ; ! "burlarse de"
+leh:leh V-TV ; ! "buscar"
 lekʼ:lekʼ V-TV ; ! "lick"
 loʼlay:loʼlay V-TV ; ! "deceive"
 majan:majan V-TV ; ! "borrow"
-maliy:maliy V-TV ; ! "wait"
-man:man V-TV ; ! "buy"
+maliy:maliy V-TV ; ! "esperar; wait"
+man:man V-TV ; ! "comprar"
 mes:mes V-TV ; ! "sweep"
 muktay:muktay V-TV ; ! "spy on,  observe"
-naʼ:naʼ V-TV ; ! "know,  remember"
-nakʼ:nakʼ V-TV ; ! "hide"
-nojes:nojes V-TV ; ! "fill"
+naʼ:naʼ V-TV ; ! "saber, recordar"
+nakʼ:nakʼ V-TV ; ! "esconder"
+nojes:nojes V-TV ; ! "llenar"
 nop:nop V-TV ; ! "learn"
-pas:pas V-TV ; ! "do,  make"
-pas:pas V-TV ; ! "make"
+pas:pas V-TV ; ! "hacer"
 pay:pay V-TV ; ! "boil"
 sap:sap V-TV ; ! "wash"
 suhtes:suhtes V-TV ; ! "return (something)"
