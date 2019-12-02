@@ -173,6 +173,10 @@ LEXICON N
 %<n%>%<pl%>:%>%{h%}etik E ; 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
 
+LEXICON N-tat
+
+@R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
+
 LEXICON N-pueblo
 
 N ; 
@@ -196,6 +200,12 @@ LEXICON A
 @D.P_PRS@%<adj%>:@D.P_PRS@ # ; 
 @D.P_PRS@%<adj%>%<subst%>:@D.P_PRS@%>%{V%}l # ; 
 @R.P_PRS@%<adj%>%<subst%>:@R.P_PRS@%>%{V%}l POSS-SUFF ; 
+
+LEXICON A-sik
+
+@D.P_PRS@%<adj%>:@D.P_PRS@%>%{V%}l # ; 
+@D.P_PRS@%<adj%>%<subst%>:@D.P_PRS@ # ; 
+!@R.P_PRS@%<adj%>%<subst%>:@R.P_PRS@ POSS-SUFF ; 
 
 LEXICON CC
 
@@ -252,7 +262,7 @@ Comunes ;
 LEXICON Comunes 
 
 pim:pim N ; ! "grasa"
-tat:tat N ; ! "padre"
+tat:tat N-tat ; ! "padre"
 bah:bah N ; ! ""
 tʼul:tʼul N ; ! "conejo"
 siʼ:siʼ N ; ! "leña"
@@ -272,6 +282,7 @@ pohp:pohp N ; ! "mat"
 !naht:naht N ; ! ""
 
 nah:nah N ; ! "casa"
+chenekʼ:chenekʼ N ; ! "frijol"
 
 beh:beh N ; ! "camino"
 
@@ -302,8 +313,8 @@ kʼal:kʼal N ; ! "milpa"
 lum:lum N-lum ; ! ""
 
 pueblo:pueblo N-pueblo ; ! "pueblo"
-soldado:soldado N-pueblo ; ! "pueblo"
-
+soldado:soldado N-pueblo ; ! ""
+árabe:árabe N-pueblo ; ! ""
 sakerdote:sakerdote N-pueblo ; ! ""
 prínkipal:prínkipal N-pueblo ; ! ""
 dios:dios N-pueblo ; ! ""
@@ -318,9 +329,24 @@ Israel:Israel NP-TOP ; ! ""
 
 LEXICON Adjetivos
 
-mukʼ:mukʼ A ; ! "grande"
 lek:lek A ; ! "bueno"
 tut:tut A ; ! "pequeño"
+tsael:tsael A ; ! "pequeño"
+chʼin:chʼin A ; ! "pequeño"
+niwak:niwak A ; ! "grande"
+chopol:chopol A ; ! "malevolente"
+bujstʼan:bujtsʼan A ; ! "sabroso"
+takin:takin A ; ! "seco"
+kʼixin:kʼixin A ; ! "caliente"
+
+sak:sak A-sik ; ! "blanco"
+mukʼ:mukʼ A-sik ; ! "grande"
+sik:sik A-sik ; ! ""
+jay:jay A-sik ; ! "delgado"
+kom:kom A-sik ; ! "bajo"
+toj:toj A-sik ; ! "recto"
+
+
 
 
 LEXICON Adverbios 
