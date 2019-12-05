@@ -26,8 +26,9 @@ Multichar_Symbols
 %{s%}
 %{w%}
 %{h%}
-%{k%}
+%{j%}
 %{V%} 
+%{o%}
 
 @U.P_PRS.1@
 @U.P_PRS.2@
@@ -75,14 +76,20 @@ LEXICON K
 %+ix%<adv%>:%>ix # ; 
                  # ;
 
-!LEXICON PERS-ABS-IV
-!
-!%<s_sg1%>:%>on # ; 
-!%<s_sg2%>:%>at # ; 
-!%<s_sg3%>:%> # ; 
-!%<s_pl1%>:%>otik # ; 
-!%<s_pl3%>:%> # ; 
-!%<s_pl3%>:%>ik # ; 
+LEXICON PERS-ABS-IV
+
+%<s_sg1%>:%>on # ; 
+%<s_sg2%>:%>at # ; 
+%<s_sg3%>:%> # ; 
+%<s_pl1%>:%>otik # ; 
+%<s_pl2%>:%>ex # ; 
+%<s_pl3%>:%> # ; 
+%<s_pl3%>:%>ik # ; 
+
+LEXICON PERS-ABS 
+
+PERS-ABS-TV-1 ; 
+PERS-ABS-TV-23 ; 
 
 LEXICON PERS-ABS-TV-1                       ! Conjunto B
 @U.S_NBR.SG@%<o_sg1%>:@U.S_NBR.SG@%>on      K ; 
@@ -98,8 +105,7 @@ LEXICON PERS-ABS-TV-23                      ! Conjunto B
 
 LEXICON PERS-ERG-PREF                       ! Conjunto A 
 
-!@U.S_PRS.1@:@U.S_PRS.1@h%{k%}%>            TV ; 
-@U.S_PRS.1@:@U.S_PRS.1@j%{k%}%>             TV ; 
+@U.S_PRS.1@:@U.S_PRS.1@%{j%}%>             TV ; 
 @U.S_PRS.2@:@U.S_PRS.2@a%{w%}%>             TV ; 
 @U.S_PRS.3@:@U.S_PRS.3@%{s%}%>              TV ; 
 
@@ -129,30 +135,41 @@ LEXICON PERS-ERG-SUFF                       ! Conjunto A
 LEXICON ASP-PREF
 
 @P.TAM.Impf@:@P.TAM.Impf@x%> IV ; 
+@P.TAM.Impf@:@P.TAM.Impf@%> IV ; 
 @P.TAM.Past@:@P.TAM.Past@ IV ; 
+
+@P.TAM.Impf@:@P.TAM.Impf@ PERS-ERG-PREF ; 
+@P.TAM.Past@:@P.TAM.Past@ PERS-ERG-PREF ; 
 
 LEXICON POSS 
 !j-nah “my house”
 !ʼa-nah “your house”
 !s-nah “his house”
 
-@U.P_PRS.1@:@U.P_PRS.1@j%> Sustantivos ; 
+@U.P_PRS.1@:@U.P_PRS.1@%{j%}%> Sustantivos ; 
 @U.P_PRS.2@:@U.P_PRS.2@ʼa%> Sustantivos ; 
 @U.P_PRS.2@:@U.P_PRS.2@a%> Sustantivos ; 
 @U.P_PRS.3@:@U.P_PRS.3@s%> Sustantivos ; 
 
+LEXICON ASP-SUFF-IV
+
+@R.TAM.Impf@%<impf%>:@R.TAM.Impf@ PERS-ABS-IV ; 
+@R.TAM.Past@%<past%>:@R.TAM.Past@%>em PERS-ABS-IV ; 
+
+LEXICON ASP-SUFF-TV
+
+@R.TAM.Impf@%<impf%>:@R.TAM.Impf@ PERS-ERG-SUFF ; 
+@R.TAM.Past@%<past%>:@R.TAM.Past@%>%{o%}j PERS-ERG-SUFF ; 
+
 LEXICON V-TV 
 
-%<v%>%<tv%>: PERS-ERG-SUFF ; 
+%<v%>%<tv%>: ASP-SUFF-TV ; 
+%<v%>%<tv%>%<inf%>:%>el PERS-ABS ; 
 
 LEXICON V-IV 
 
-%<v%>%<iv%>: ASP-SUFF ; 
-
-LEXICON ASP-SUFF
-
-@R.TAM.Impf@%<impf%>:@R.TAM.Impf@ # ; 
-@R.TAM.Past@%<past%>:@R.TAM.Past@ # ; 
+%<v%>%<iv%>: ASP-SUFF-IV ; 
+%<v%>%<iv%>%<inf%>:%>el # ; 
 
 LEXICON E 
 
@@ -187,6 +204,11 @@ LEXICON N-lum
 
 %<n%>: E ; 
 @R.P_PRS@%<n%>:@R.P_PRS@%>al POSS-SUFF  ; 
+
+
+LEXICON PRON-ITG
+
+%<prn%>%<itg%>: # ; 
 
 
 LEXICON PRON-PERS 
@@ -231,7 +253,11 @@ LEXICON Miscellaneous
 
 ya%<impf%>:ya # ; 
 la%<perf%>:la # ; 
+la%<perf%>:a # ; 
 bal%<qst%>:bal # ;
+laj%<aux%>:laj # ; ! ""
+
+yakal%<aux%>:yakal PERS-ABS-IV ; ! ""
 
 ix%<adv%>:ix # ; ! "ya"
 
@@ -239,6 +265,8 @@ ta%<pr%>:ta # ;
 
 ʼay%<part%>:ʼay # ; ! "hay"
 maʼyuk%<part%>:maʼyuk # ; ! "no hay"
+
+maʼ%<neg%>:maʼ # ; ! "no"
 
 LEXICON Conjunciones
 
@@ -251,6 +279,8 @@ te%<det%>:te # ;
 LEXICON Pronombres 
 
 tukel:tukel PRON-PERS ; 
+
+bin:bin PRON-ITG ; ! "qué"
 
 LEXICON Números 
 
@@ -714,6 +744,8 @@ banti:banti ADV-ITG ; ! "dónde"
 nax:nax ADV ; ! "sólo"
 nix:nix ADV ; ! "sólo"
 
+bayel:bayel ADV ; ! "mucho"
+
 LEXICON TV
 
 tʼun:tʼun V-TV ; ! "seguir"
@@ -1122,6 +1154,10 @@ yukʼ:yukʼ V-TV ; ! "agitar"
 
 kuenta:kuenta V-TV ; ! ""
 
+tsak:tsak V-TV ; ! "agarrar"
+
+koltay:koltay V-TV ; ! "ayudar"
+
 LEXICON IV 
 
 suht:suht V-IV ; ! "volver"
@@ -1131,6 +1167,7 @@ moh:moh V-IV ; ! "levantarse"
 chikan:chikan V-IV ; ! "estar visible"
 laj:laj V-IV ; ! "desgastar"
 yahl:yahl V-IV ; ! "caerse"
+way:way V-IV ; ! "dormir"
 
 bah:bah V-IV ; ! "ir"
 
