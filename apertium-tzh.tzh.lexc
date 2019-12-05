@@ -115,7 +115,9 @@ LEXICON PERS-ERG-2-SUFF                     ! Conjunto A
 
 LEXICON PERS-ERG-3-SUFF                     ! Conjunto A 
 
+@U.S_NBR.SG@%<s_sg3%>:@U.S_NBR.SG@%>        PERS-ABS-TV-1 ; 
 @U.S_NBR.SG@%<s_sg3%>:@U.S_NBR.SG@%>        PERS-ABS-TV-23 ; 
+@U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>        PERS-ABS-TV-1 ; 
 @U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>        PERS-ABS-TV-23 ; 
 
 LEXICON PERS-ERG-SUFF                       ! Conjunto A
