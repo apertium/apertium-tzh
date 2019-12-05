@@ -264,13 +264,16 @@ ix%<adv%>:ix # ; ! "ya"
 ta%<pr%>:ta # ; 
 
 ʼay%<part%>:ʼay # ; ! "hay"
+ʼay%<part%>:ay # ; ! "hay"
 maʼyuk%<part%>:maʼyuk # ; ! "no hay"
 
 maʼ%<neg%>:maʼ # ; ! "no"
+maʼ%<neg%>:ma # ; ! "no"
 
 LEXICON Conjunciones
 
 me:me CC ; ! "o"
+tame:tame CC ; ! "o"
 
 LEXICON Determinantes
 
@@ -710,6 +713,8 @@ filisteo:filisteo N-pueblo ; ! ""
 judío:judío N-pueblo ; ! ""
 karreta:karreta N-pueblo ; ! ""
 
+jol:jol N ; ! "cabeza"
+
 
 LEXICON Propios
 
@@ -740,6 +745,7 @@ toj:toj A-sik ; ! "recto"
 LEXICON Adverbios 
 
 banti:banti ADV-ITG ; ! "dónde"
+ba:ba ADV-ITG ; ! "dónde"
 
 nax:nax ADV ; ! "sólo"
 nix:nix ADV ; ! "sólo"
@@ -761,6 +767,8 @@ mil:mil V-TV ; ! "matar"
 ten:ten V-TV ; ! "tirar"
 maj:maj V-TV ; ! "pegar"
 mulan:mulan V-TV ; ! "gustar"
+
+lah:lah V-TV ; ! "follar"
 
 ʼaʼiy:ʼaʼiy V-TV ; ! "entender, oír"
 ʼakʼ:ʼakʼ V-TV ; ! "dar"
@@ -1149,6 +1157,7 @@ yaxubtes:yaxubtes V-TV ; ! "poner verde"
 yijubtes:yijubtes V-TV ; ! "macizar"
 yom:yom V-TV ; ! "juntar"
 yub:yub V-TV ; ! "entrecerrar "
+yuʼ:yuʼ V-TV ; ! "inclinar"
 yukʼ:yukʼ V-TV ; ! "agitar"
 
 
@@ -1157,6 +1166,8 @@ kuenta:kuenta V-TV ; ! ""
 tsak:tsak V-TV ; ! "agarrar"
 
 koltay:koltay V-TV ; ! "ayudar"
+
+jol:jol V-TV ; ! "destapar"
 
 LEXICON IV 
 
