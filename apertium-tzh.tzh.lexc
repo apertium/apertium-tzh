@@ -718,6 +718,7 @@ yuy:yuy N ; ! "yuyo"
 lum:lum N-lum ; ! ""
 
 pueblo:pueblo N-pueblo ; ! "pueblo"
+pantalon:pantalon N-pueblo ; ! ""
 soldado:soldado N-pueblo ; ! ""
 árabe:árabe N-pueblo ; ! ""
 sakerdote:sakerdote N-pueblo ; ! ""
@@ -778,6 +779,8 @@ nax:nax ADV ; ! "sólo"
 nix:nix ADV ; ! "sólo"
 
 bayel:bayel ADV ; ! "mucho"
+
+lom:lom ADV ; ! "muy"
 
 LEXICON TV
 
@@ -1197,6 +1200,9 @@ koltay:koltay V-TV ; ! "ayudar"
 jol:jol V-TV ; ! "destapar"
 lokʼes:lokʼes V-TV ; ! "sacar"
 
+lom:lom V-TV ; ! "abollar"
+lap:lap V-TV ; ! "vestir"
+
 LEXICON IV 
 
 suht:suht V-IV ; ! "volver"
@@ -1208,6 +1214,7 @@ laj:laj V-IV ; ! "desgastar"
 yahl:yahl V-IV ; ! "caerse"
 way:way V-IV ; ! "dormir"
 
+tal:tal V-IV ; ! "venir"
 lokʼ:lokʼ V-IV ; ! "salir"
 bah:bah V-IV ; ! "ir"
 
@@ -1222,6 +1229,9 @@ pʼijub:pʼijub V-IV ; ! ""
 kʼax:kʼax V-IV ; ! ""
 
 xiʼ:xiʼ V-IV ; ! "asustarse"
+
+lihk:lijk V-IV ; ! ""
+lijk:lijk V-IV ; ! ""
 
 !i. ya    h-tʼun-at      I am following you                                   *
 !iv. ya   h-tʼun-tik-0   We are following him                                 *
