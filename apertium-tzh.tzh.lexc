@@ -175,6 +175,7 @@ LEXICON E
 
 %+e%<def%>:%>e # ; 
                # ; 
+
 LEXICON POSS-SUFF
 
 @U.P_PRS.1@%<px1sg%>:@U.P_PRS.1@ E ; 
@@ -184,32 +185,34 @@ LEXICON POSS-SUFF
 @U.P_PRS.1@%<px1pl%>%<ex%>:@U.P_PRS.1@%>kotik E ; 
 @U.P_PRS.2@%<px2pl%>:@U.P_PRS.2@%>ik E ; 
 @U.P_PRS.3@%<px3pl%>:@U.P_PRS.3@%>ik E ; 
- 
 
-LEXICON N 
+LEXICON N                                       !
 
-%<n%>: E ; 
+@D.P_PRS@%<n%>:@D.P_PRS@ E ; 
 %<n%>%<pl%>:%>%{h%}etik E ; 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
 
-LEXICON N-tat
+LEXICON N-tat                                   ! Inalienable 
 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
 
-LEXICON N-pueblo
+LEXICON N-pueblo                                ! Sustantivos prestados
 
 N ; 
 
-LEXICON N-lum
+LEXICON N-lum                                   ! 
 
-%<n%>: E ; 
+@D.P_PRS@%<n%>:@D.P_PRS@ E ; 
 @R.P_PRS@%<n%>:@R.P_PRS@%>al POSS-SUFF  ; 
 
+LEXICON N-bah                                   ! Sustantivos relacionales
+
+@D.P_PRS@%<n%>%<rel%>:@D.P_PRS@ E ; 
+@R.P_PRS@%<n%>%<rel%>:@R.P_PRS@ POSS-SUFF  ; 
 
 LEXICON PRON-ITG
 
 %<prn%>%<itg%>: # ; 
-
 
 LEXICON PRON-PERS 
 
@@ -230,6 +233,12 @@ LEXICON A-sik
 @D.P_PRS@%<adj%>:@D.P_PRS@%>%{V%}l # ; 
 @D.P_PRS@%<adj%>%<subst%>:@D.P_PRS@ # ; 
 !@R.P_PRS@%<adj%>%<subst%>:@R.P_PRS@ POSS-SUFF ; 
+
+LEXICON A-babi
+
+@D.P_PRS@%<adj%>%<ord%>:@D.P_PRS@ # ; 
+@R.P_PRS@%<adj%>%<ord%>:@R.P_PRS@ POSS-SUFF ; 
+
 
 LEXICON CC
 
@@ -275,6 +284,11 @@ LEXICON Conjunciones
 me:me CC ; ! "o"
 tame:tame CC ; ! "o"
 
+LEXICON Relacionales 
+
+bah:bah N-bah ; ! ""
+bah:ba N-bah ; ! ""
+
 LEXICON Determinantes
 
 te%<det%>:te # ; 
@@ -292,13 +306,13 @@ jun:jun NUM ; ! "uno"
 LEXICON Sustantivos 
 
 Adjetivos ; 
+Relacionales ; 
 Comunes ; 
 
 LEXICON Comunes 
 
 pim:pim N ; ! "grasa"
 tat:tat N-tat ; ! "padre"
-bah:bah N ; ! ""
 tʼul:tʼul N ; ! "conejo"
 siʼ:siʼ N ; ! "leña"
 puy:puy N ; ! "caracol"
@@ -714,6 +728,15 @@ judío:judío N-pueblo ; ! ""
 karreta:karreta N-pueblo ; ! ""
 
 jol:jol N ; ! "cabeza"
+ain:ain N ; ! "lagarto"
+kʼuʼ:kʼuʼ N ; ! "camisa"
+
+tiʼjaʼ:tiʼjaʼ N ; ! ""
+
+ixim:ixim N ; ! "maíz"
+mexa:mexa N ; ! "mesa"
+bah:ba N ; ! "tuza"
+bah:bah N ; ! ""
 
 
 LEXICON Propios
@@ -731,6 +754,9 @@ chopol:chopol A ; ! "malevolente"
 bujstʼan:bujtsʼan A ; ! "sabroso"
 takin:takin A ; ! "seco"
 kʼixin:kʼixin A ; ! "caliente"
+bikʼit:bikʼit A ; ! "pequeño"
+namey:namey A ; ! "antiguo"
+namey:namej A ; ! "antiguo"
 
 sak:sak A-sik ; ! "blanco"
 mukʼ:mukʼ A-sik ; ! "grande"
@@ -740,6 +766,7 @@ kom:kom A-sik ; ! "bajo"
 toj:toj A-sik ; ! "recto"
 
 
+babi:babi A-babi ; ! ""
 
 
 LEXICON Adverbios 
@@ -1168,6 +1195,7 @@ tsak:tsak V-TV ; ! "agarrar"
 koltay:koltay V-TV ; ! "ayudar"
 
 jol:jol V-TV ; ! "destapar"
+lokʼes:lokʼes V-TV ; ! "sacar"
 
 LEXICON IV 
 
@@ -1180,6 +1208,7 @@ laj:laj V-IV ; ! "desgastar"
 yahl:yahl V-IV ; ! "caerse"
 way:way V-IV ; ! "dormir"
 
+lokʼ:lokʼ V-IV ; ! "salir"
 bah:bah V-IV ; ! "ir"
 
 mukʼub:mukʼub V-IV ; ! ""
@@ -1191,6 +1220,8 @@ moh:moh V-IV ; ! ""
 pʼijub:pʼijub V-IV ; ! ""
 ʼokʼ:ʼokʼ V-IV ; ! ""
 kʼax:kʼax V-IV ; ! ""
+
+xiʼ:xiʼ V-IV ; ! "asustarse"
 
 !i. ya    h-tʼun-at      I am following you                                   *
 !iv. ya   h-tʼun-tik-0   We are following him                                 *
