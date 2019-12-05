@@ -149,7 +149,7 @@ LEXICON POSS
 @U.P_PRS.1@:@U.P_PRS.1@%{j%}%> Sustantivos ; 
 @U.P_PRS.2@:@U.P_PRS.2@ʼa%> Sustantivos ; 
 @U.P_PRS.2@:@U.P_PRS.2@a%> Sustantivos ; 
-@U.P_PRS.3@:@U.P_PRS.3@s%> Sustantivos ; 
+@U.P_PRS.3@:@U.P_PRS.3@%{s%}%> Sustantivos ; 
 
 LEXICON ASP-SUFF-IV
 
@@ -278,6 +278,8 @@ maʼyuk%<part%>:maʼyuk # ; ! "no hay"
 
 maʼ%<neg%>:maʼ # ; ! "no"
 maʼ%<neg%>:ma # ; ! "no"
+
+sok%<pr%>:sok # ; ! "con"
 
 LEXICON Conjunciones
 
@@ -739,6 +741,8 @@ mexa:mexa N ; ! "mesa"
 bah:ba N ; ! "tuza"
 bah:bah N ; ! ""
 
+ihnam:ihnam N ; ! "esposa"
+ihnam:inam N ; ! "esposa"
 
 LEXICON Propios
 
@@ -1203,7 +1207,12 @@ lokʼes:lokʼes V-TV ; ! "sacar"
 lom:lom V-TV ; ! "abollar"
 lap:lap V-TV ; ! "vestir"
 
+
+takʼ:takʼ V-TV ; ! "poder"  ! FIXME: sólo se conjuga con sujeto de 3a persona
+
 LEXICON IV 
+
+takʼ:takʼ V-IV ; ! "poder"  ! §6.4.1
 
 suht:suht V-IV ; ! "volver"
 hil:hil V-IV ; ! "quedar"
@@ -1232,6 +1241,8 @@ xiʼ:xiʼ V-IV ; ! "asustarse"
 
 lihk:lijk V-IV ; ! ""
 lijk:lijk V-IV ; ! ""
+
+sok:sok V-IV ; ! "descomponerse"
 
 !i. ya    h-tʼun-at      I am following you                                   *
 !iv. ya   h-tʼun-tik-0   We are following him                                 *
