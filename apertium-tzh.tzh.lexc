@@ -200,6 +200,11 @@ LEXICON N-pueblo                                ! Sustantivos prestados
 
 N ; 
 
+LEXICON N-bak                                   ! 
+
+@D.P_PRS@%<n%>:@D.P_PRS@ E ; 
+@R.P_PRS@%<n%>:@R.P_PRS@%>el POSS-SUFF  ; 
+
 LEXICON N-lum                                   ! 
 
 @D.P_PRS@%<n%>:@D.P_PRS@ E ; 
@@ -221,6 +226,10 @@ LEXICON PRON-PERS
 LEXICON NP-TOP
 
 %<np%>%<top%>: # ; 
+
+LEXICON A-antiwo
+
+@D.P_PRS@%<adj%>:@D.P_PRS@ # ; 
 
 LEXICON A 
 
@@ -274,7 +283,7 @@ ta%<pr%>:ta # ;
 
 ʼay%<part%>:ʼay # ; ! "hay"
 ʼay%<part%>:ay # ; ! "hay"
-maʼyuk%<part%>:maʼyuk # ; ! "no hay"
+maʼyuk%<part%>%<neg%>:maʼyuk # ; ! "no hay"
 
 maʼ%<neg%>:maʼ # ; ! "no"
 maʼ%<neg%>:ma # ; ! "no"
@@ -385,7 +394,6 @@ axinal:axinal N ; ! "sombra"
 aʼyej:aʼyej N ; ! "plática"
 ayinel:ayinel N ; ! "nacimiento"
 bakal:bakal N ; ! "olote"
-bak:bak N ; ! "hueso"
 bakʼet:bakʼet N ; ! "carnosidad"
 balam:balam N ; ! "jaguar"
 bana:bana N ; ! "tapanco"
@@ -744,6 +752,18 @@ bah:bah N ; ! ""
 ihnam:ihnam N ; ! "esposa"
 ihnam:inam N ; ! "esposa"
 
+bak:bak N-bak ; ! "hueso"
+
+oʼtan:oʼtan N ; ! "corazón"
+bihil:bihil N ; ! "nombre"
+bihil:biil N ; ! "nombre"
+bihil:bil N ; ! "nombre"
+
+kʼab:kʼab N ; ! "mano, brazo"
+chʼen:chʼen N ; ! "peña"
+
+! pʼahl / pʼahl [alt. Pʼ, H: pʼal, OX bal] c.n. para contar palabras ◊ jpʼahl nax kʼop [ PE ] ‘sólo una palabraʼ
+
 LEXICON Propios
 
 Israel:Israel NP-TOP ; ! ""
@@ -763,15 +783,21 @@ bikʼit:bikʼit A ; ! "pequeño"
 namey:namey A ; ! "antiguo"
 namey:namej A ; ! "antiguo"
 
+kʼan:kʼan A-sik ; ! "amarillo"
 sak:sak A-sik ; ! "blanco"
 mukʼ:mukʼ A-sik ; ! "grande"
 sik:sik A-sik ; ! ""
 jay:jay A-sik ; ! "delgado"
 kom:kom A-sik ; ! "bajo"
 toj:toj A-sik ; ! "recto"
-
+naht:naht A-sik ; ! "largo"
+naht:najt A-sik ; ! "largo"
+al:al A-sik ; ! "pesado"
 
 babi:babi A-babi ; ! ""
+
+antiwo:antiwo A-antiwo ; ! "antiguo"
+
 
 
 LEXICON Adverbios 
@@ -803,6 +829,10 @@ maj:maj V-TV ; ! "pegar"
 mulan:mulan V-TV ; ! "gustar"
 
 lah:lah V-TV ; ! "follar"
+
+al:al V-TV ; ! "decir"
+kaʼ:kaʼ V-TV ; ! "romper, quebar"
+kaʼj:kaʼj V-TV ; ! "quebar"
 
 ʼaʼiy:ʼaʼiy V-TV ; ! "entender, oír"
 ʼakʼ:ʼakʼ V-TV ; ! "dar"
@@ -1243,6 +1273,15 @@ lihk:lijk V-IV ; ! ""
 lijk:lijk V-IV ; ! ""
 
 sok:sok V-IV ; ! "descomponerse"
+
+kʼay:kʼay V-IV ; ! ""
+kʼahy:kʼahy V-IV ; ! ""
+
+behen:ben V-IV ; ! "caminar"
+behen:behen V-IV ; ! "caminar"
+
+jelaw:jelaw V-IV ; ! "excederse"
+chʼen:chʼen V-IV ; ! "callarse"
 
 !i. ya    h-tʼun-at      I am following you                                   *
 !iv. ya   h-tʼun-tik-0   We are following him                                 *
