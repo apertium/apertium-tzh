@@ -290,6 +290,8 @@ maʼ%<neg%>:ma # ; ! "no"
 
 sok%<pr%>:sok # ; ! "con"
 
+manchuk%<part%>:manchuk # ; ! "aunque"
+
 LEXICON Conjunciones
 
 me:me CC ; ! "o"
@@ -761,6 +763,9 @@ bihil:bil N ; ! "nombre"
 
 kʼab:kʼab N ; ! "mano, brazo"
 chʼen:chʼen N ; ! "peña"
+nukʼ:nukʼ N ; ! ""
+alchax:alchax N ; ! "naranja"
+tsʼubil:tsʼubil N ; ! "sedimento"
 
 ! pʼahl / pʼahl [alt. Pʼ, H: pʼal, OX bal] c.n. para contar palabras ◊ jpʼahl nax kʼop [ PE ] ‘sólo una palabraʼ
 
@@ -811,6 +816,9 @@ nix:nix ADV ; ! "sólo"
 bayel:bayel ADV ; ! "mucho"
 
 lom:lom ADV ; ! "muy"
+tsʼin:tsʼin ADV ; ! "al rato"
+
+! ts’ijt [ TP ] c.n. para contar actos de limpiar con el dedo ◊ cha’ts’ijt xawa’be me xaltene [ TP ] ‘limpia dos veces el
 
 LEXICON TV
 
@@ -1239,6 +1247,11 @@ lap:lap V-TV ; ! "vestir"
 
 
 takʼ:takʼ V-TV ; ! "poder"  ! FIXME: sólo se conjuga con sujeto de 3a persona
+
+nukʼ:nukʼ V-TV ; ! ""
+tsʼak:tsʼak V-TV ; ! "añadir"
+tsʼub:tsʼub V-TV ; ! "probar"
+tsʼup:tsʼup V-TV ; ! "atravesar"
 
 LEXICON IV 
 
