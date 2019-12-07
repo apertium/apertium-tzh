@@ -8,6 +8,9 @@ Multichar_Symbols
 %<v%>
 
 %<tv%>
+%<iv%>
+
+%<inf%>
 
 %<s_sg1%>
 %<s_sg2%>
@@ -41,6 +44,8 @@ Multichar_Symbols
 
 @R.P_PRS@
 @D.P_PRS@
+@R.S_PRS@
+@D.S_PRS@
 
 @P.TAM.Impf@
 @R.TAM.Impf@
@@ -61,6 +66,7 @@ Determinantes ;
 Adverbios ; 
 Adjetivos ;
 Números ; 
+Interrogativos ;
 Punctuación ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -76,15 +82,19 @@ LEXICON K
 %+ix%<adv%>:%>ix # ; 
                  # ;
 
-LEXICON PERS-ABS-IV
+LEXICON PERS-ABS-IV-12
 
 %<s_sg1%>:%>on # ; 
 %<s_sg2%>:%>at # ; 
-%<s_sg3%>:%> # ; 
 %<s_pl1%>:%>otik # ; 
 %<s_pl2%>:%>ex # ; 
+
+LEXICON PERS-ABS-IV
+%<s_sg3%>:%> # ; 
 %<s_pl3%>:%> # ; 
 %<s_pl3%>:%>ik # ; 
+
+PERS-ABS-IV-12 ; 
 
 LEXICON PERS-ABS 
 
@@ -105,9 +115,10 @@ LEXICON PERS-ABS-TV-23                      ! Conjunto B
 
 LEXICON PERS-ERG-PREF                       ! Conjunto A 
 
-@U.S_PRS.1@:@U.S_PRS.1@%{j%}%>             TV ; 
+@U.S_PRS.1@:@U.S_PRS.1@%{j%}%>              TV ; 
 @U.S_PRS.2@:@U.S_PRS.2@a%{w%}%>             TV ; 
 @U.S_PRS.3@:@U.S_PRS.3@%{s%}%>              TV ; 
+                                            TV ;
 
 LEXICON PERS-ERG-1-SUFF                     ! Conjunto A
 
@@ -131,6 +142,18 @@ LEXICON PERS-ERG-SUFF                       ! Conjunto A
 @U.S_PRS.1@:@U.S_PRS.1@                     PERS-ERG-1-SUFF ;
 @U.S_PRS.2@:@U.S_PRS.2@                     PERS-ERG-2-SUFF ;
 @U.S_PRS.3@:@U.S_PRS.3@                     PERS-ERG-3-SUFF ;
+
+LEXICON COP-SUFF-N
+
+%<pred%>: PERS-ABS-IV-12 ;
+%<pred%>%<s_sg3%>:%> # ;
+%<pred%>%<s_pl3%>:%>etik # ;
+
+LEXICON COP-SUFF-A
+
+%<pred%>: PERS-ABS-IV-12 ;
+%<pred%>%<s_sg3%>:%> # ;
+%<pred%>%<s_pl3%>:%>ik # ;
 
 LEXICON ASP-PREF
 
@@ -163,8 +186,9 @@ LEXICON ASP-SUFF-TV
 
 LEXICON V-TV 
 
-%<v%>%<tv%>: ASP-SUFF-TV ; 
-%<v%>%<tv%>%<inf%>:%>el PERS-ABS ; 
+@R.S_PRS@%<v%>%<tv%>:@R.S_PRS@ ASP-SUFF-TV ; 
+@R.S_PRS@%<v%>%<tv%>%<inf%>:@R.S_PRS@%>el PERS-ABS ; 
+@D.S_PRS@%<v%>%<tv%>%<inf%>:@D.S_PRS@%>el # ; 
 
 LEXICON V-IV 
 
@@ -189,6 +213,7 @@ LEXICON POSS-SUFF
 LEXICON N                                       !
 
 @D.P_PRS@%<n%>:@D.P_PRS@ E ; 
+@D.P_PRS@%<n%>:@D.P_PRS@      COP-SUFF-N ; 
 %<n%>%<pl%>:%>%{h%}etik E ; 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
 
@@ -202,12 +227,14 @@ N ;
 
 LEXICON N-bak                                   ! 
 
-@D.P_PRS@%<n%>:@D.P_PRS@ E ; 
-@R.P_PRS@%<n%>:@R.P_PRS@%>el POSS-SUFF  ; 
+@D.P_PRS@%<n%>:@D.P_PRS@      E ; 
+@D.P_PRS@%<n%>:@D.P_PRS@      COP-SUFF-N ; 
+@R.P_PRS@%<n%>:@R.P_PRS@%>el  POSS-SUFF  ; 
 
 LEXICON N-lum                                   ! 
 
 @D.P_PRS@%<n%>:@D.P_PRS@ E ; 
+@D.P_PRS@%<n%>:@D.P_PRS@      COP-SUFF-N ; 
 @R.P_PRS@%<n%>:@R.P_PRS@%>al POSS-SUFF  ; 
 
 LEXICON N-bah                                   ! Sustantivos relacionales
@@ -215,13 +242,17 @@ LEXICON N-bah                                   ! Sustantivos relacionales
 @D.P_PRS@%<n%>%<rel%>:@D.P_PRS@ E ; 
 @R.P_PRS@%<n%>%<rel%>:@R.P_PRS@ POSS-SUFF  ; 
 
+LEXICON PRON-QNT
+
+%<prn%>%<qnt%>: POSS-SUFF ; 
+
 LEXICON PRON-ITG
 
 %<prn%>%<itg%>: # ; 
 
 LEXICON PRON-PERS 
 
-%<prn%>%<pers%>: # ; 
+%<prn%>%<pers%>: POSS-SUFF ; 
 
 LEXICON NP-TOP
 
@@ -233,15 +264,24 @@ LEXICON A-antiwo
 
 LEXICON A 
 
-@D.P_PRS@%<adj%>:@D.P_PRS@ # ; 
+@D.P_PRS@%<adj%>:@D.P_PRS@                  # ; 
+@D.P_PRS@%<adj%>:@D.P_PRS@          COP-SUFF-A ; 
 @D.P_PRS@%<adj%>%<subst%>:@D.P_PRS@%>%{V%}l # ; 
 @R.P_PRS@%<adj%>%<subst%>:@R.P_PRS@%>%{V%}l POSS-SUFF ; 
 
 LEXICON A-sik
 
 @D.P_PRS@%<adj%>:@D.P_PRS@%>%{V%}l # ; 
+@D.P_PRS@%<adj%>:@D.P_PRS@          COP-SUFF-A ; 
 @D.P_PRS@%<adj%>%<subst%>:@D.P_PRS@ # ; 
 !@R.P_PRS@%<adj%>%<subst%>:@R.P_PRS@ POSS-SUFF ; 
+
+LEXICON A-pukuj
+
+@D.P_PRS@%<adj%>:@D.P_PRS@ # ; 
+@D.P_PRS@%<adj%>:@D.P_PRS@          COP-SUFF-A ; 
+@D.P_PRS@%<adj%>%<attr%>:@D.P_PRS@%>il # ; 
+@R.P_PRS@%<adj%>%<subst%>:@R.P_PRS@%>il POSS-SUFF ; 
 
 LEXICON A-babi
 
@@ -306,11 +346,14 @@ LEXICON Determinantes
 
 te%<det%>:te # ; 
 
+LEXICON Interrogativos
+
+bin:bin PRON-ITG ; ! "qué"
+
 LEXICON Pronombres 
 
 tukel:tukel PRON-PERS ; 
-
-bin:bin PRON-ITG ; ! "qué"
+pisil:pisil PRON-QNT ; 
 
 LEXICON Números 
 
@@ -321,6 +364,7 @@ LEXICON Sustantivos
 Adjetivos ; 
 Relacionales ; 
 Comunes ; 
+Pronombres ;
 
 LEXICON Comunes 
 
@@ -767,6 +811,11 @@ nukʼ:nukʼ N ; ! ""
 alchax:alchax N ; ! "naranja"
 tsʼubil:tsʼubil N ; ! "sedimento"
 
+pukuj:pukuj N ; ! "demonio"
+pukuj:pukuh N ; ! "demonio"
+
+kerem:kerem N ; ! "muchacho"
+
 ! pʼahl / pʼahl [alt. Pʼ, H: pʼal, OX bal] c.n. para contar palabras ◊ jpʼahl nax kʼop [ PE ] ‘sólo una palabraʼ
 
 LEXICON Propios
@@ -803,6 +852,8 @@ babi:babi A-babi ; ! ""
 
 antiwo:antiwo A-antiwo ; ! "antiguo"
 
+pukuj:pukuj A-pukuj ; ! "malo"
+pukuj:pukuh A-pukuj ; ! "malo"
 
 
 LEXICON Adverbios 
@@ -1330,6 +1381,8 @@ tuun:tuun  V-IV ; ! "servir"
 tsokʼob:tsokʼob  V-IV ; ! "espesarse"
 winikub:winikub  V-IV ; ! "volverse adulto"
 xinub:xinub  V-IV ; ! "ponerse rancio"
+
+tojob:tojob V-IV ; ! "enderezarse"
 
 
 !i. ya    h-tʼun-at      I am following you                                   *
