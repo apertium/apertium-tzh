@@ -818,7 +818,10 @@ bayel:bayel ADV ; ! "mucho"
 lom:lom ADV ; ! "muy"
 tsʼin:tsʼin ADV ; ! "al rato"
 
-! ts’ijt [ TP ] c.n. para contar actos de limpiar con el dedo ◊ cha’ts’ijt xawa’be me xaltene [ TP ] ‘limpia dos veces el
+! tsʼijt [ TP ] c.n. para contar actos de limpiar con el dedo ◊ chaʼtsʼijt xawaʼbe me xaltene [ TP ] ‘limpia dos veces el
+
+kohel:kohel ADV ; ! "abajo"
+kohel:koel ADV ; ! "abajo"
 
 LEXICON TV
 
@@ -1291,10 +1294,43 @@ kʼay:kʼay V-IV ; ! ""
 kʼahy:kʼahy V-IV ; ! ""
 
 behen:ben V-IV ; ! "caminar"
+behen:been V-IV ; ! "caminar"
 behen:behen V-IV ; ! "caminar"
 
 jelaw:jelaw V-IV ; ! "excederse"
 chʼen:chʼen V-IV ; ! "callarse"
+
+buhlan:buhlan V-IV ; ! "hirvir"
+buhlan:bulan V-IV ; ! "hirvir"
+
+chuhy:chuhy V-IV ; ! "ampollarse"
+chuhy:chuy V-IV ; ! "ampollarse"
+
+abakub:abakub  V-IV ; ! "llenarse de hollín"
+bechkʼuj:bechkʼuj  V-IV ; ! "doblarse"
+chiknaj:chiknaj  V-IV ; ! "hacerse visible"
+jalaj:jalaj  V-IV ; ! "durar"
+jaʼub:jaʼub  V-IV ; ! "ponerse aguado"
+jaʼubtes:jaʼubtes  V-IV ; ! "aguadar"
+jelaj:jelaj  V-IV ; ! "sobresalirse"
+jil:jil  V-IV ; ! "quedar"
+jowij:jowij  V-IV ; ! "alocarse"
+jowiy:jowiy  V-IV ; ! "alocarse"
+juʼ:juʼ  V-IV ; ! "poderse"
+kʼay:kʼay  V-IV ; ! "acostumbrarse"
+kʼelumaj:kʼelumaj  V-IV ; ! "retoñar"
+kʼunub:kʼunub  V-IV ; ! "ablandarse"
+muxub:muxub  V-IV ; ! "cocerse de más"
+pukʼub:pukʼub  V-IV ; ! "descomponerse"
+sayub:sayub  V-IV ; ! "marchitarse"
+sijub:sijub  V-IV ; ! "sentir malestar"
+totob:totob  V-IV ; ! "enmohecerse"
+tuun:tun  V-IV ; ! "servir"
+tuun:tuun  V-IV ; ! "servir"
+tsokʼob:tsokʼob  V-IV ; ! "espesarse"
+winikub:winikub  V-IV ; ! "volverse adulto"
+xinub:xinub  V-IV ; ! "ponerse rancio"
+
 
 !i. ya    h-tʼun-at      I am following you                                   *
 !iv. ya   h-tʼun-tik-0   We are following him                                 *
