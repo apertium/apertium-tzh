@@ -396,6 +396,170 @@ LEXICON CLASS
 %+bahl%<clf%>:%>bal # ;     ! cilíndricos
 %+bahkʼ%<clf%>:%>bahkʼ # ;     ! cuatrocientos
 %+bahn%<clf%>:%>bahn # ;     !troncos 
+%+baj%<clf%>:baj  # ; ! "" # ; ! clavadas, sonidos de golpes de clavar
+%+behch%<clf%>:behch  # ; ! "señas de la mano" # ; ![alt. H: bejch] [BA, PE, TP]  
+%+behkʼ%<clf%>:behkʼ  # ; ! "actos de manchar, ensuciar" # ; ![alt. H: bejkʼ]  (1) [BA, PE] 
+%+bihch%<clf%>:bihch  # ; ! "actos de torcer algo" # ; ![alt. H: bijch, bijchʼ]  (1) 
+%+bihkʼ%<clf%>:bihkʼ  # ; ! "actos de tragar" # ; ![alt. H: bijkʼ]  
+%+bij%<clf%>:bij  # ; ! "cosas pequeñas y esféricas, hebras de hilo ⇒pʼij3." # ; ![OX]  
+%+bohn%<clf%>:bohn  # ; ! "actos de pintar" # ; ![alt. H: bon]  
+%+bohtsʼ%<clf%>:bohtsʼ  # ; ! "actos de arrancar algo" # ; ![alt. H: bojtsʼ]  
+%+boj%<clf%>:boj   # ; ! "" # ; ! actos de cortar
+%+buhl%<clf%>:buhl  # ; ! "actos de arrancar plantas" # ; ![alt. H: bul]  
+%+buhl%<clf%>:buhl  # ; ! "hervores" # ; ![alt. H: bul]  
+%+buhtʼ%<clf%>:buhtʼ  # ; ! "actos de rellenar" # ; ![alt. H: bujtʼ]  
+%+buhtsʼ%<clf%>:buhtsʼ # ; ! "actos de chupar" # ; ![alt. H: bujtsʼ]  (1) 
+%+chahp%<clf%>:chahp # ; ! "clases o tipos de cosas" # ; ![alt. H: chajp, OX chajb]  (1) 
+%+chehp%<clf%>:chehp # ; ! "bultos, redes llenas, cargas, tercios de leña" # ; ![alt. H: chejp, chejb]  
+%+chehw%<clf%>:chehw  # ; ! "actos de moler" # ; ![alt. H: chew]  
+%+chej%<clf%>:chej   # ; ! "" # ; ! ramas
+%+chex%<clf%>:chex  # ; ! "" # ; ! ramas
+%+chihm%<clf%>:chihm  # ; ! "actos de sumergir, sopear o caerse de trompa" # ; ![PE]  
+%+chohl%<clf%>:chohl  # ; ! "surcos, filas, líneas" # ; ![alt. H: chol]  
+%+choht%<clf%>:choht  # ; ! "muebles de cuatro patas" # ; ![alt. H: chojt, OX chojtʼ]  (1) 
+%+chox%<clf%>:chox  # ; ! "vehículos" # ; ![PE]  
+%+chuhk%<clf%>:chuhk # ; ! "actos de anudar, amarrar" # ; ![alt. H: chujk, OX chujkʼ]  
+%+chuhp%<clf%>:chuhp  # ; ! "porciones de cosas contenidas en el bolsillo o en la ropa hecha en forma" # ; ![alt. H: chujp]  
+%+chʼahm%<clf%>:chʼahm # ; ! "" # ; ![alt. H: chʼam]  para actos de juntar agua en un recipiente
+%+chʼehlapil%<clf%>:chʼehlapil  # ; ! "brazadas (medida de la punta de los dedos hasta el sobaco del brazo" # ; ![BA, PE]  
+%+chʼeht%<clf%>:chʼeht  # ; ! "telas desordenadas" # ; ![alt. H: chʼejt, OX chʼejtʼ]  (1) [BA, TP] 
+%+chʼihk%<clf%>:chʼihk # ; ! "actos de insertar algo en un orificio pequeño" # ; ![PE]  
+%+chʼix%<clf%>:chʼix # ; ! "" # ; ! objetos alargados
+%+chʼohb%<clf%>:chʼohb  # ; ! "huecos" # ; ![alt. H: chʼob]  
+%+chʼohl%<clf%>:chʼohl  # ; ! "" # ; ![alt. H: chʼol]  para actos de verter, embrocar
+%+chʼohp%<clf%>:chʼohp  # ; ! "actos de meter los dedos para sacar algo" # ; ![alt. H: chʼojp]  
+%+chʼoj%<clf%>:chʼoj  # ; ! "" # ; ! actos de tirar, aventar
+%+chʼuhb%<clf%>:chʼuhb  # ; ! "hoyos pequeños" # ; ![alt. H: chʼub]  
+%+chʼuhl%<clf%>:chʼuhl # ; ! "actos de lijar, repellar" # ; ![alt. H: chʼul]  
+%+chʼut%<clf%>:chʼut # ; ! "" # ; ![PE]  jeme (distancia del pulgar al dedo índice, extendiéndolos) ⇒chʼutub
+%+ehtsʼ%<clf%>:ehtsʼ  # ; ! "pizcas o pedazos muy pequeños de algo" # ; ![PE]  (1) 
+%+huht%<clf%>:huht # ; ! "hoyos, agujeros" # ; ![alt. H: jujt, OX jujtʼ]  
+%+ihchʼ%<clf%>:ihchʼ  # ; ! "actos de tomar o recibir algo" # ; ![alt. H: ijchʼ]  
+%+ihkats%<clf%>:ihkats # ; ! "cargar, tercios de leña" # ; ![alt. H: ijkat, OX ijkʼats]  
+%+ijkʼ%<clf%>:ijkʼ # ; ! "veces llamando a gente" # ; ![TP]  
+%+ilel%<clf%>:ilel # ; ! "" # ; ! actos de ver, visitar
+%+jaht%<clf%>:jaht # ; ! "pedazos en que se raja algo, grupos en que se separa gente" # ; ![alt. H: jajt]  
+%+jahts%<clf%>:jahts # ; ! "rasgaduras, actos de desgarrar" # ; ![alt. H: jajts]  
+%+jahw%<clf%>:jahw  # ; ! "brazadas (medida de punta a punta con los dos brazos extendidos)" # ; ![alt. H: jaw]  
+%+jehch%<clf%>:jehch  # ; ! "lados" # ; ![alt. H: jejch, OX jejchʼ] I.  (1) 
+%+jehp%<clf%>:jehp # ; ! "mitades de cosas partidas (fruta, leña, piedra)" # ; ![alt. H: jejp, OX jejb]  (1) 
+%+jehpʼ%<clf%>:jehpʼ  # ; ! "mitades rajadas (de fruta)" # ; ![PE]  
+%+jis%<clf%>:jis   # ; ! "" # ; ! tiras (de carne, de tela), prendas de ropa
+%+johp%<clf%>:johp  # ; ! "puñados" # ; ![alt. H: jojp, jojb]  
+%+jojt%<clf%>:jojt  # ; ! "cuartas o palmos (con la mano extendida, de la punta del pulgar a la punta de otro dedo," # ; ![TP]  
+%+jujt%<clf%>:jujt   # ; ! "" # ; ! hoyos, agujeros ⇒huht║Morf.: jut <j>.
+%+kaj%<clf%>:kaj  # ; ! "" # ; ! gradas, pisos, escalones, niveles, capas
+%+kal%<clf%>:kal  # ; ! "" # ; ![OX, TP]  para trozos grandes de comida
+%+kehts%<clf%>:kehts  # ; ! "manojos" # ; ![alt. H: kejts] [PE, TP]  
+%+kejlem%<clf%>:kejlem  # ; ! "medidas de la punta del pulgar hasta el final de la primera falange del dedo índice," # ; ![TP]  
+%+koht%<clf%>:koht  # ; ! "animales, chiles o cosas paradas sobre cuatro patas (muebles," # ; ![alt. H: kojt, OX kojtʼ]  
+%+kuhch%<clf%>:kuhch # ; ! "actos de cargar (maíz, leña)" # ; ![alt. H: kujch]  
+%+kuhm%<clf%>:kuhm  # ; ! "" # ; ![alt. H: kum]  (1) [BA, PE] para actos de doblar (maíz)
+%+kum%<clf%>:kum # ; ! "" # ; ! tipos de cosas ⇒kuhm.
+%+kus%<clf%>:kus # ; ! "" # ; ! actos de limpiar
+%+kʼahm%<clf%>:kʼahm  # ; ! "rollos (de hilo, lazo)" # ; ![alt. H: kʼam]  (1) 
+%+kʼas%<clf%>:kʼas # ; ! "" # ; ! pedazos de algo
+%+kʼaxel%<clf%>:kʼaxel  # ; ! "" # ; ! pasadas, veces
+%+kʼehch%<clf%>:kʼehch # ; ! "actos de cargar en el hombro cosas pesadas" # ; ![alt. H: kʼejch]  
+%+kʼelum%<clf%>:kʼelum  # ; ! "número de ramificaciones (cuernos del venado)" # ; ![CA, OX]  
+%+kʼohl%<clf%>:kʼohl  # ; ! "objetos esféricos o puestos en bola" # ; ![alt. H: kʼol]  
+%+kʼohts%<clf%>:kʼohts  # ; ! "telas agarradas descuidadamente" # ; ![alt. H: kʼojts]  
+%+kʼuht%<clf%>:kʼuht  # ; ! "actos de desgranar maíz" # ; ![alt. H: kʼujt]  
+%+lahm%<clf%>:lahm  # ; ! "capas (de papel, tela, cosas planas), paquetes de cosas planas apiladas, prendas" # ; ![alt. H: lam]  
+%+lahts%<clf%>:lahts  # ; ! "hileras de cosas hacinadas, tercios de leña" # ; ![alt. H: lajts]  
+%+lehb%<clf%>:lehb  # ; ! "pedazos (de tela), partes (de pared)" # ; ![BA]  
+%+lehch%<clf%>:lehch  # ; ! "cosas planas, hojas (de papel)" # ; ![alt. H: lejch, OX lejchʼ]  
+%+lihk%<clf%>:lihk # ; ! "telas, lienzos" # ; ![alt. H: lijk, OX lijkʼ]  
+%+lihpʼ%<clf%>:lihpʼ  # ; ! "pizcas de materia en polvo (azúcar, sal)" # ; ![BA, PE]  
+%+lohp%<clf%>:lohp  # ; ! "sorbos, actos de tragar un líquido" # ; ![alt. H: lojp, OX lojb]  
+%+lohtʼ%<clf%>:lohtʼ  # ; ! "paquetes de cosas apretadas" # ; ![alt. H: lojtʼ]  
+%+lohw%<clf%>:lohw  # ; ! "actos de acuchillar o de inyectar" # ; ![alt. H: low]  
+%+loʼ%<clf%>:loʼ # ; ! "" # ; ! actos de comer (fruta, cosas suaves)
+%+luhch%<clf%>:luhch # ; ! "cantidades de algo (granos) servido con cuchara o taza" # ; ![alt. H: lujch, OX lujchʼ]  
+%+luhp%<clf%>:luhp  # ; ! "cantidades de algo (líquidos) servido con cuchara o taza" # ; ![alt. H: lujp]  
+%+mahkʼ%<clf%>:mahkʼ  # ; ! "pedazos, trozos (de cosas alargadas: hilo, mecate, lazo, palo," # ; ![alt. H: majkʼ, VR makʼ]  
+%+maj%<clf%>:maj # ; ! "" # ; ! actos de golpear
+%+mehl%<clf%>:mehl # ; ! "veces" # ; ![alt. H: mel]  (1) 
+%+mes%<clf%>:mes # ; ! "actos de barrer" # ; ![TP]  
+%+nahb%<clf%>:nahb  # ; ! "cuartas o palmos (con la mano extendida, de la punta del pulgar a la punta de" # ; ![alt. H: nab]  
+%+nehchʼ%<clf%>:nehchʼ  # ; ! "actos de morder" # ; ![BA]  
+%+nejtʼ%<clf%>:nejtʼ  # ; ! "actos de aplastar algo" # ; ![TP]  
+%+nes%<clf%>:nes # ; ! "" # ; ! actos de raspar algo con los dientes
+%+nohl%<clf%>:nohl  # ; ! "bolas" # ; ![alt. H: nol]  
+%+nohy%<clf%>:nohy  # ; ! "actos de moler" # ; ![alt. H: noy]  
+%+nuhkʼ%<clf%>:nuhkʼ # ; ! "actos de fumar" # ; ![alt. H: nujkʼ]  
+%+ochel%<clf%>:ochel # ; ! "actos de entrar o ir a hacer algo a algún lugar" # ; ![TP]  
+%+okʼel%<clf%>:okʼel # ; ! "" # ; ! gritos o cantos de animales
+%+pahch%<clf%>:pahch  # ; ! "platos de algo, órdenes de comida" # ; ![alt. H: pajch]  
+%+pahk%<clf%>:pahk  # ; ! "pliegos (de papel, de tela), mudas (de ropa), libros" # ; ![alt. H: pajk, OX pajkʼ]  
+%+pahl%<clf%>:pahl  # ; ! "racimos (de plátano, mango)" # ; ![alt. H: pal]  (1) 
+%+pahm%<clf%>:pahm  # ; ! "extensiones planas de terreno, extensiones de agua (laguna, charco)" # ; ![alt. H: pam]  
+%+pehch%<clf%>:pehch  # ; ! "tortillas y comidas parecidas (tamales)" # ; ![alt. H: pejch, OX pejchʼ]  
+%+peht%<clf%>:peht  # ; ! "plantas, matas" # ; ![alt. H: pejt]  
+%+pihtʼ%<clf%>:pihtʼ  # ; ! "actos de apretar, exprimir" # ; ![alt. H: pijtʼ]  
+%+pihts%<clf%>:pihts # ; ! "actos de arrancar" # ; ![alt. H: pijts]  
+%+pis%<clf%>:pis  # ; ! "objetos redondos de tamaño mediano (frutas, piedras, bolas de pozol)" # ; ![BA, PE] 
+%+pohch%<clf%>:pohch  # ; ! "papeles, cuadernos, libros" # ; ![alt. H: pojch]  
+%+puhkʼ%<clf%>:puhkʼ # ; ! "actos de batir" # ; ![alt. H: pujkʼ]  
+%+pujk%<clf%>:pujk  # ; ! "actos de dispersar algo" # ; ![TP]  
+%+pux%<clf%>:pux # ; ! "" # ; ! dobleces, número de veces en que se dobla algo sobre sí mismo; para cosas dobladas
+%+pʼahl%<clf%>:pʼahl  # ; ! "palabras" # ; ![alt. Pʼ, H: pʼal, OX bal]  
+%+pʼehch%<clf%>:pʼehch  # ; ! "pequeñas cantidades (de granos, plátano, zacate) contenidas en un costal" # ; ![PE]  
+%+pʼej%<clf%>:pʼej  # ; ! "cosas pequeñas y esféricas, hebras de hilo, montañas, árboles (⇒pʼij3); en habla" # ; ![AM, TP]  
+%+pʼij%<clf%>:pʼij # ; ! "cosas pequeñas y esféricas (grano, piedrita, huevo, letra), o al menos con" # ; ![alt. Pʼ: OX bij]  (1) 
+%+pʼoʼ%<clf%>:pʼoʼ # ; ! "grupos, montones" # ; ![CA, TP]  
+%+sehp%<clf%>:sehp  # ; ! "cosas en forma de disco, extensiones más o menos circulares de" # ; ![alt. H: sejp, OX sejb]  
+%+sihl%<clf%>:sihl  # ; ! "rebanadas, pedazos (de fruta)" # ; ![alt. H: sil]  
+%+suhtel%<clf%>:suhtel # ; ! "vueltas, veces, pasadas" # ; ![alt. H: sujtel, OX sujtʼel]  
+%+tehkʼ%<clf%>:tehkʼ  # ; ! "árboles, matas" # ; ![alt. H: tejkʼ]  (1) 
+%+tehn%<clf%>:tehn # ; ! "tipos o clases de cosas o maneras de hacer algo" # ; ![alt. H: ten] [CA, OX, PE, TP]  (1) 
+%+tejk%<clf%>:tejk  # ; ! "árboles, matas (⇒tehkʼ)" # ; ![TP]  
+%+tel%<clf%>:tel # ; ! "" # ; ![OX, TP]  para cosas ovaladas (chayote, chilacayote), enrolladas
+%+tohm%<clf%>:tohm  # ; ! "manojos (de hierbas, verduras)" # ; ![alt. H: tom]  
+%+tohts%<clf%>:tohts  # ; ! "actos de jalar (cabello) o para cosas amarradas en mechón, trenza" # ; ![alt. H: tojts]  
+%+toy%<clf%>:toy # ; ! "actos de alzar algo" # ; ![TP]  
+%+tuhchʼ%<clf%>:tuhchʼ  # ; ! "pedazos (de hilo, lazo, tela, carne); " # ; ![alt. H: tujchʼ]  
+%+tuhl%<clf%>:tuhl  # ; ! "humanos" # ; ![alt. H: tul]  
+%+tujk%<clf%>:tujk  # ; ! "agrupaciones de hebras de cincuenta hilos" # ; ![alt. H: OX tujkʼ]  
+%+tul%<clf%>:tul # ; ! "" # ; ! humanos ⇒tuhl.
+%+tus%<clf%>:tus # ; ! "" # ; ! manojos║Sin.: tohm
+%+tʼihm%<clf%>:tʼihm # ; ! "cosas estiradas, actos de estirar algo" # ; ![alt. H: tʼim]  
+%+tʼohl%<clf%>:tʼohl  # ; ! "montones de granos o de tierra" # ; ![alt. H: tʼol]  
+%+tʼuhl%<clf%>:tʼuhl  # ; ! "gotas" # ; ![alt. H: tʼul]  
+%+tʼuhy%<clf%>:tʼuhy  # ; ! "cosas colgadas" # ; ![alt. H: tʼuy]  
+%+tʼul%<clf%>:tʼul # ; ! "" # ; ! gotas ⇒tʼuhl.
+%+tsahl%<clf%>:tsahl  # ; ! "surcos" # ; ![alt. H: tsal]  
+%+tsahn%<clf%>:tsahn  # ; ! "sonidos metálicos" # ; ![alt. H: tsan]  
+%+tsehl%<clf%>:tsehl # ; ! "actos de rodar algo" # ; ![alt. H: tsel]  (1) [BA] 
+%+tsehp%<clf%>:tsehp  # ; ! "actos de cortar con cuchillo, machete" # ; ![alt. H: tsejp] [BA, TP]  
+%+tsohb%<clf%>:tsohb # ; ! "grupos de cosas juntadas, actos de agrupar" # ; ![alt. H: tsojb, tsob]  
+%+tsohy%<clf%>:tsohy  # ; ! "cosas pegadas" # ; ![alt. H: tsoy]  
+%+tsuhn%<clf%>:tsuhn # ; ! "actos de encender fuego" # ; ![alt. H: tsun]  
+%+tsʼahk%<clf%>:tsʼahk # ; ! "pedazos unidos de algo, " # ; ![alt. H: tsʼajk]  
+%+tsʼahl%<clf%>:tsʼahl  # ; ! "tercios de leña" # ; ![alt. H: tsʼal]  
+%+tsʼahm%<clf%>:tsʼahm  # ; ! "actos de remojar" # ; ![alt. H: tsʼam]  
+%+tsʼahp%<clf%>:tsʼahp  # ; ! "actos de insertar o acuchillar" # ; ![alt. H: tsʼajp]  
+%+tsʼijt%<clf%>:tsʼijt  # ; ! "actos de limpiar con el dedo" # ; ![TP]  
+%+tsʼis%<clf%>:tsʼis # ; ! "" # ; ! actos de costurar
+%+tsʼuhn%<clf%>:tsʼuhn  # ; ! "actos de sembrar" # ; ![alt. H: tsʼun]  
+%+uhchʼ%<clf%>:uhchʼ  # ; ! "tragos, actos de beber" # ; ![alt. H: ujchʼ]  
+%+uhm%<clf%>:uhm  # ; ! "tragos, sorbos" # ; ![alt. H: um]  
+%+wahy%<clf%>:wahy  # ; ! "noches dormidas (fuera del hogar)" # ; ![alt. H: way]  (1) 
+%+wehl%<clf%>:wehl  # ; ! "cosas planas y delgadas: hojas, puertas, ventanas, sombreros" # ; ![alt. H: wel]  
+%+weʼ%<clf%>:weʼ # ; ! "" # ; ! comidas, actos de comer
+%+wihkʼ%<clf%>:wihkʼ # ; ! "" # ; ![alt. H: wijkʼ]  para actos de abrir los ojos o despertarse (sueños interrumpidos)
+%+wihtsʼ%<clf%>:wihtsʼ  # ; ! "" # ; ![alt. H: wijtsʼ] [BA, GU, PE]  (1) para pizcas o muy pequeñas porciones de algo
+%+wohkʼ%<clf%>:wohkʼ # ; ! "grupos" # ; ![alt. H: wojkʼ]  
+%+wohl%<clf%>:wohl  # ; ! "cosas boludas, en particular algo grandes (piedras, troncos, casas)" # ; ![alt. H: wol]  
+%+xahpʼ%<clf%>:xahpʼ  # ; ! "puños o cantidades pequeñas de arena, barro, granos" # ; ![alt. H: xajpʼ] [GU, PE, TP]  
+%+xehtʼ%<clf%>:xehtʼ  # ; ! "pedazos de algo" # ; ![alt. H: xejtʼ, xetʼ]  
+%+xoht%<clf%>:xoht  # ; ! "rollos" # ; ![alt. H: xojt, OX xojtʼ]  
+%+xohtʼ%<clf%>:xohtʼ # ; ! "pedazos cilíndricos de algo, trozos" # ; ![alt. H: xojtʼ]  
+%+xuhk%<clf%>:xuhk # ; ! "lados" # ; ![alt. H: xujk, OX xujkʼ]  
+%+xuhkʼub%<clf%>:xuhkʼub # ; ! "codos (medida del codo a la punta de los dedos)" # ; ![alt. H: xujkʼub]  
+%+yahlel%<clf%>:yahlel  # ; ! "viajes cargando algo" # ; ![alt. H: yalel]  (1) 
+%+yohm%<clf%>:yohm  # ; ! "manojos, grupos" # ; ![alt. H: yom]  
+
 
 LEXICON NUM-cheb
 
