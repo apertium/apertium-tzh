@@ -366,7 +366,34 @@ LEXICON Relacionales
 bah:bah N-bah ; ! ""
 bah:ba N-bah ; ! ""
 bah:baj N-bah ; ! ""
+util:util N-bah ; ! ""
 uʼun:uʼun N-bah ; ! ""
+
+oloj:oloj N-bah ; ! ""
+eʼtal:eʼtal N-bah ; ! ""
+anil:anil N-bah ; ! ""
+ahlanil:ahlanil N-bah ; ! ""
+tsʼehl:tsʼehl N-bah ; ! ""
+tsʼehl:tsʼeel N-bah ; ! ""
+tsʼehl:tsʼel N-bah ; ! ""
+tojol:tojol N-bah ; ! ""
+tiʼ:tiʼ N-bah ; ! ""
+pat:pat N-bah ; ! ""
+ohlil:ohlil N-bah ; ! ""
+ohlil:olil N-bah ; ! ""
+niʼ:niʼ N-bah ; ! ""
+kaj:kaj N-bah ; ! ""
+joyobal:joyobal N-bah ; ! ""
+jok:jok N-bah ; ! ""
+bahbayal:bahbayal N-bah ; ! ""
+bahbayal:bahbeyal N-bah ; ! ""
+bahbayal:babial N-bah ; ! ""
+ahkʼolal:ahkʼolal N-bah ; ! ""
+ahkʼolal:ajkʼolal N-bah ; ! ""
+ahkʼolal:akʼolal N-bah ; ! ""
+
+
+
 
 LEXICON Determinantes
 
@@ -850,6 +877,9 @@ kera:kera N ; ! "guerra"
 
 tsotsil:tsotsil N ; ! "pelo"
 alal:alal N ; ! "bebé"
+
+weʼel:weʼel N ; ! "comida"
+matsʼ:matsʼ N ; ! "masa"
 
 ! pʼahl / pʼahl [alt. Pʼ, H: pʼal, OX bal] c.n. para contar palabras ◊ jpʼahl nax kʼop [ PE ] ‘sólo una palabraʼ
 
@@ -1343,6 +1373,8 @@ tsʼub:tsʼub V-TV ; ! "probar"
 tsʼup:tsʼup V-TV ; ! "atravesar"
 
 poxtay:poxtay V-TV ; ! "curar"
+
+matsʼ:matsʼ V-TV ; ! "masticar"
 
 LEXICON IV 
 
