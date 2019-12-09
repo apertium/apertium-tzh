@@ -421,19 +421,26 @@ LEXICON CLASS
 %+chuhk%<clf%>:chuhk # ; ! "actos de anudar, amarrar" # ; ![alt. H: chujk, OX chujkʼ]  
 %+chuhp%<clf%>:chuhp  # ; ! "porciones de cosas contenidas en el bolsillo o en la ropa hecha en forma" # ; ![alt. H: chujp]  
 %+chʼahm%<clf%>:chʼahm # ; ! "" # ; ![alt. H: chʼam]  para actos de juntar agua en un recipiente
-%+chʼehlapil%<clf%>:chʼehlapil  # ; ! "brazadas (medida de la punta de los dedos hasta el sobaco del brazo" # ; ![BA, PE]  
-%+chʼeht%<clf%>:chʼeht  # ; ! "telas desordenadas" # ; ![alt. H: chʼejt, OX chʼejtʼ]  (1) [BA, TP] 
-%+chʼihk%<clf%>:chʼihk # ; ! "actos de insertar algo en un orificio pequeño" # ; ![PE]  
-%+chʼix%<clf%>:chʼix # ; ! "" # ; ! objetos alargados
-%+chʼohb%<clf%>:chʼohb  # ; ! "huecos" # ; ![alt. H: chʼob]  
-%+chʼohl%<clf%>:chʼohl  # ; ! "" # ; ![alt. H: chʼol]  para actos de verter, embrocar
-%+chʼohp%<clf%>:chʼohp  # ; ! "actos de meter los dedos para sacar algo" # ; ![alt. H: chʼojp]  
-%+chʼoj%<clf%>:chʼoj  # ; ! "" # ; ! actos de tirar, aventar
-%+chʼuhb%<clf%>:chʼuhb  # ; ! "hoyos pequeños" # ; ![alt. H: chʼub]  
-%+chʼuhl%<clf%>:chʼuhl # ; ! "actos de lijar, repellar" # ; ![alt. H: chʼul]  
-%+chʼut%<clf%>:chʼut # ; ! "" # ; ![PE]  jeme (distancia del pulgar al dedo índice, extendiéndolos) ⇒chʼutub
-%+ehtsʼ%<clf%>:ehtsʼ  # ; ! "pizcas o pedazos muy pequeños de algo" # ; ![PE]  (1) 
-%+huht%<clf%>:huht # ; ! "hoyos, agujeros" # ; ![alt. H: jujt, OX jujtʼ]  
+%+chʼehlapil%<clf%>:chʼehlapil     # ; ! "brazadas (medida de la punta de los dedos hasta el sobaco del brazo" # ; ![BA, PE]  
+%+chʼeht%<clf%>:chʼeht             # ; ! "telas desordenadas" # ; ![alt. H: chʼejt, OX chʼejtʼ]  (1) [BA, TP] 
+%+chʼihk%<clf%>:chʼihk             # ; ! "actos de insertar algo en un orificio pequeño" # ; ![PE]  
+%+chʼix%<clf%>:chʼix               # ; ! "" # ; ! objetos alargados
+%+chʼohb%<clf%>:chʼohb             # ; ! "huecos"
+%+chʼohb%<clf%>:chʼob              # ; ! "huecos"
+%+chʼohl%<clf%>:chʼohl             # ; ! "actos de verter"
+%+chʼohl%<clf%>:chʼol              # ; ! "actos de verter"
+%+chʼohp%<clf%>:chʼohp             # ; ! "actos de meter los dedos para sacar algo"
+%+chʼohp%<clf%>:chʼojp             # ; ! "actos de meter los dedos para sacar algo"
+%+chʼoj%<clf%>:chʼoj               # ; ! actos de tirar, aventar
+%+chʼuhb%<clf%>:chʼuhb             # ; ! "hoyos pequeños" 
+%+chʼuhb%<clf%>:chʼub              # ; ! "hoyos pequeños"  
+%+chʼuhl%<clf%>:chʼuhl             # ; ! "actos de lijar, repellar" # ; ![alt. H: chʼul]  
+%+chʼuhl%<clf%>:chʼul              # ; ! "actos de lijar, repellar" # ; ![alt. H: chʼul]  
+%+chʼut%<clf%>:chʼut               # ; ! "" # ; ![PE]  jeme (distancia del pulgar al dedo índice, extendiéndolos) ⇒chʼutub
+%+ehtsʼ%<clf%>:ehtsʼ               # ; ! "pizcas o pedazos muy pequeños de algo" # ; ![PE]  (1) 
+%+huht%<clf%>:huht                 # ; ! "hoyos, agujeros" 
+%+huht%<clf%>:jujt                 # ; ! "hoyos, agujeros" 
+%+huht%<clf%>:jujtʼ                # ; ! "hoyos, agujeros" 
 %+ihchʼ%<clf%>:ihchʼ  # ; ! "actos de tomar o recibir algo" # ; ![alt. H: ijchʼ]  
 %+ihkats%<clf%>:ihkats # ; ! "cargar, tercios de leña" # ; ![alt. H: ijkat, OX ijkʼats]  
 %+ijkʼ%<clf%>:ijkʼ # ; ! "veces llamando a gente" # ; ![TP]  
@@ -1167,6 +1174,8 @@ krisyano:kirsano N-krisyano ; ! ""
 krisyano:kirsanu N-krisyano ; ! ""
 krisyano:krisyan N-krisyano ; ! ""
 
+kumpare:kumpare N ; ! ""
+
 atin:atin N-atimal ; ! "baño" ! Verb/atin
 siʼwej:siʼwej N-atimal ; ! "leñar" ! Noun/siʼ ! Dial/Cen
 siʼbej:siʼbej N-atimal ; ! "leñar" ! Noun/siʼ ! Dial/Sur
@@ -1175,6 +1184,11 @@ lajib:lajib N ; ! ""
 sibak:sibak N ; ! "cohete"
 es:es N ; ! "utilidad"
 jʼabat:jʼabat N ; ! "ayudante"
+
+pahkʼ:pahkʼ N ; ! "pared"
+pahkʼ:pajkʼ N ; ! "pared"
+
+aʼ:aʼ N-tat ; ! "muslo"
 
 nichim:nichimaltik N-coll ; ! ""
 ixim:iximaltik N-coll ; ! ""
@@ -1198,6 +1212,7 @@ bikʼit:bikʼit A ; ! "pequeño"
 namey:namey A ; ! "antiguo"
 namey:namej A ; ! "antiguo"
 
+paj:paj A-sik ; ! "agrio"
 kʼan:kʼan A-sik ; ! "amarillo"
 sak:sak A-sik ; ! "blanco"
 mukʼ:mukʼ A-sik ; ! "grande"
@@ -1238,7 +1253,138 @@ tsʼin:tsʼin ADV ; ! "al rato"
 kohel:kohel ADV ; ! "abajo"
 kohel:koel ADV ; ! "abajo"
 
+ek:ek ADV ; ! "también, tampoco"
 to:to ADV ; ! "todavía"
+
+ahkʼabaltik:ahkʼabaltik ADV ; ! ""
+ahkʼabey:ahkʼabey ADV ; ! ""
+ahkʼol:ahkʼol ADV ; ! ""
+ahlan:ahlan ADV ; ! ""
+ahnu:ahnu ADV ; ! ""
+ahnumal:ahnumal ADV ; ! ""
+ajkʼ:ajkʼ ADV ; ! ""
+ajkʼaltsʼin:ajkʼaltsʼin ADV ; ! ""
+ajkʼubaltik:ajkʼubaltik ADV ; ! ""
+ajkʼubey:ajkʼubey ADV ; ! ""
+ak:ak ADV ; ! ""
+akʼol:akʼol ADV ; ! ""
+altik:altik ADV ; ! ""
+auk:auk ADV ; ! ""
+ayin:ayin ADV ; ! ""
+bahwitstik:bahwitstik ADV ; ! ""
+bakʼen:bakʼen ADV ; ! ""
+bakʼentik:bakʼentik ADV ; ! ""
+biluk:biluk ADV ; ! ""
+buen:buen ADV ; ! ""
+chaʼbej:chaʼbej ADV ; ! ""
+chaʼjey:chaʼjey ADV ; ! ""
+chanej:chanej ADV ; ! ""
+chanje:chanje ADV ; ! ""
+chaʼwej:chaʼwej ADV ; ! ""
+desgraciado:desgraciado ADV ; ! ""
+ehuk:ehuk ADV ; ! ""
+ek:ek ADV ; ! ""
+hich:hich ADV ; ! ""
+hichilan:hichilan ADV ; ! ""
+hip:hip ADV ; ! ""
+howil:howil ADV ; ! ""
+jaʼchik:jaʼchik ADV ; ! ""
+jʼahkʼ:jʼahkʼ ADV ; ! ""
+jahtalal:jahtalal ADV ; ! ""
+jal:jal ADV ; ! ""
+jech:jech ADV ; ! ""
+jechkʼal:jechkʼal ADV ; ! ""
+jich:jich ADV ; ! ""
+jip:jip ADV ; ! ""
+jkʼaxel:jkʼaxel ADV ; ! ""
+joch:joch ADV ; ! ""
+johy:johy ADV ; ! ""
+jontol:jontol ADV ; ! ""
+jowil:jowil ADV ; ! ""
+jtsʼihn:jtsʼihn ADV ; ! ""
+juersa:juersa ADV ; ! ""
+jujuʼajkʼ:jujuʼajkʼ ADV ; ! ""
+jujutsʼihn:jujutsʼihn ADV ; ! ""
+junabey:junabey ADV ; ! ""
+junhabey:junhabey ADV ; ! ""
+junhab:junhab ADV ; ! ""
+kʼax:kʼax ADV ; ! ""
+kelawan:kelawan ADV ; ! ""
+kʼiʼkʼiʼmakʼal:kʼiʼkʼiʼmakʼal ADV ; ! ""
+kohkoltsaʼ:kohkoltsaʼ ADV ; ! ""
+komkom:komkom ADV ; ! ""
+komol:komol ADV ; ! ""
+kʼotel:kʼotel ADV ; ! ""
+kʼunkʼun:kʼunkʼun ADV ; ! ""
+laba:laba ADV ; ! ""
+loc.:loc. ADV ; ! ""
+lom:lom ADV ; ! ""
+lum:lum ADV ; ! ""
+mas:mas ADV ; ! ""
+mero:mero ADV ; ! ""
+mukem:mukem ADV ; ! ""
+muken:muken ADV ; ! ""
+mukin:mukin ADV ; ! ""
+najkʼa:najkʼa ADV ; ! ""
+najka:najka ADV ; ! ""
+nal:nal ADV ; ! ""
+namal(Pl.namajtik):namal(Pl.namajtik) ADV ; ! ""
+namey:namey ADV ; ! ""
+namik:namik ADV ; ! ""
+nam:nam ADV ; ! ""
+nax:nax ADV ; ! ""
+naxtak:naxtak ADV ; ! ""
+neel:neel ADV ; ! ""
+nopik:nopik ADV ; ! ""
+oʼlej:oʼlej ADV ; ! ""
+ora:ora ADV ; ! ""
+ora:ora ADV ; ! ""
+or:or ADV ; ! ""
+oxejey:oxejey ADV ; ! ""
+oxej:oxej ADV ; ! ""
+oxey:oxey ADV ; ! ""
+pajel:pajel ADV ; ! ""
+pajtaj:pajtaj ADV ; ! ""
+pʼasakʼaal:pʼasakʼaal ADV ; ! ""
+patil:patil ADV ; ! ""
+payinaj:payinaj ADV ; ! ""
+puersa:puersa ADV ; ! ""
+puro:puro ADV ; ! ""
+sab:sab ADV ; ! ""
+sahb:sahb ADV ; ! ""
+slekoj:slekoj ADV ; ! ""
+tampʼas:tampʼas ADV ; ! ""
+tawal:tawal ADV ; ! ""
+tibil:tibil ADV ; ! ""
+tibiltik:tibiltik ADV ; ! ""
+tieneke:tieneke ADV ; ! ""
+tikʼbil:tikʼbil ADV ; ! ""
+tojol:tojol ADV ; ! ""
+tojo:tojo ADV ; ! ""
+tsal:tsal ADV ; ! ""
+tsʼin:tsʼin ADV ; ! ""
+uk:uk ADV ; ! ""
+uuk:uuk ADV ; ! ""
+wahlakʼpat:wahlakʼpat ADV ; ! ""
+walakʼpat:walakʼpat ADV ; ! ""
+walakʼ:walakʼ ADV ; ! ""
+wen:wen ADV ; ! ""
+winike:winike ADV ; ! ""
+wojchaʼjey:wojchaʼjey ADV ; ! ""
+wojchej:wojchej ADV ; ! ""
+wojchey:wojchey ADV ; ! ""
+wojey:wojey ADV ; ! ""
+wokol:wokol ADV ; ! ""
+wol:wol ADV ; ! ""
+xan:xan ADV ; ! ""
+xchahkʼol:xchahkʼol ADV ; ! ""
+xchaʼjol:xchaʼjol ADV ; ! ""
+xehwexehw:xehwexehw ADV ; ! ""
+yakʼel:yakʼel ADV ; ! ""
+yehtal:yehtal ADV ; ! ""
+yip:yip ADV ; ! ""
+yoʼtik:yoʼtik ADV ; ! ""
+
 
 LEXICON TV
 
@@ -1684,6 +1830,13 @@ lajin:lajin V-TV ; ! "terminar"
 kʼopon:kʼopon V-TV ; ! "hablarle a"
 ahtay:ahtay V-TV ; ! "contar"
 
+paj:paj V-TV ; ! "emparejar"
+pahkan:pahkan V-TV ; ! "acostar boca abajo"
+pahkan:pajkan V-TV ; ! "acostar boca abajo"
+pahkan:pajkʼan V-TV ; ! "acostar boca abajo"
+
+ichʼ:ichʼ V-TV ; ! "tomar"
+
 LEXICON IV 
 
 takʼ:takʼ V-IV ; ! "poder"  ! §6.4.1
@@ -1762,6 +1915,10 @@ xinub:xinub  V-IV ; ! "ponerse rancio"
 tojob:tojob V-IV ; ! "enderezarse"
 
 tʼohm:tʼohm V-IV ; ! "explotar"
+
+pahkaj:pahkaj V-IV ; ! "acostar boca abajo"
+pahkaj:pajkaj V-IV ; ! "acostar boca abajo"
+pahkaj:pajkʼaj V-IV ; ! "acostar boca abajo"
 
 LEXICON Punctuación
 
