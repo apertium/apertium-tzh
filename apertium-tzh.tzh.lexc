@@ -625,10 +625,10 @@ LEXICON Conjunciones
 me:me CC ; ! "o"
 tame:tame CC ; ! "o"
 
-kʼalal:kʼalal CA ; ! "cuando"
 te:te CS ; ! "que"
 
-teme:teme CS ; ! "si"
+kʼalal:kʼalal CA ; ! "cuando"
+teme:teme CA ; ! "si"
 
 LEXICON Relacionales 
 
@@ -1217,6 +1217,8 @@ mul:mul N-tat ; ! "pecado"
 nichim:nichimaltik N-coll ; ! ""
 ixim:iximaltik N-coll ; ! ""
 
+tsʼihb:tsʼihb N ; ! "escritura"
+tsʼihb:tsʼib N ; ! "escritura"
 
 LEXICON Propios
 
@@ -1438,6 +1440,15 @@ yehtal:yehtal ADV ; ! ""
 yip:yip ADV ; ! ""
 yoʼtik:yoʼtik ADV ; ! ""
 
+namey:name ADV ; ! "antes"
+namey:namey ADV ; ! "antes"
+namey:nameye ADV ; ! "antes"
+namey:namehe ADV ; ! "antes"
+namey:nameh ADV ; ! "antes"
+namey:nameje ADV ; ! "antes"
+
+kʼojkol:kʼojkol ADV ; ! "cabeza volteada"
+kohkoltsaʼ:kohkoltsaʼ ADV ; ! ""
 
 LEXICON TV
 
