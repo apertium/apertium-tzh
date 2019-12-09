@@ -237,6 +237,13 @@ LEXICON N                                       !
 %<n%>%<pl%>:%>%{h%}etik E ; 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
 
+LEXICON N-krisyano                               !
+
+@D.P_PRS@%<n%>:@D.P_PRS@ E ; 
+@D.P_PRS@%<n%>:@D.P_PRS@      COP-SUFF-N ; 
+%<n%>%<pl%>:%>etik E ; 
+@R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
+
 LEXICON N-tat                                   ! Inalienable 
 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
@@ -886,6 +893,12 @@ wenta:wenta N ; ! "cuenta"
 wentail:wentail N ; ! "significado" ! FIXME: Pos.Marc.: -il significado, sentido ◊ ¿bi swentail i waj i ya amuk ta lumi? [CA] ‘¿qué significa la tortilla que entierras en el suelo?’
 
 ! pʼahl / pʼahl [alt. Pʼ, H: pʼal, OX bal] c.n. para contar palabras ◊ jpʼahl nax kʼop [ PE ] ‘sólo una palabraʼ
+
+krisyano:krisyano N-krisyano ; ! ""
+krisyano:kristyano N-krisyano ; ! ""
+krisyano:kirsano N-krisyano ; ! ""
+krisyano:kirsanu N-krisyano ; ! ""
+krisyano:krisyan N-krisyano ; ! ""
 
 LEXICON Propios
 
