@@ -6,8 +6,10 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ʼ
 %{j%}:j %{j%}:k
 %{h%}:h %{h%}:0
 %{w%}:w %{w%}:0
+%{a%}:a %{a%}:0
 %{o%}:o %{o%}:e
 %{V%}:a %{V%}:e %{V%}:i %{V%}:o %{V%}:u
+%{y%}:y %{y%}:0 
 
 %> 
 
@@ -43,3 +45,9 @@ Rules
 
 "Realisation of {o}"
 %{o%}:o <=> [ .#. | %>: ] Cns+ Vow Cns+ %>: _ ;  
+
+"Realisation of {y}"
+%{y%}:y <=> _ %>: (%>:) .#. ; 
+
+"Remove e -be{y}"
+e:0 <=> _ %{y%}:0 %>: (%>:) [ Vow - i ]  ;
