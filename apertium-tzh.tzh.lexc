@@ -36,6 +36,7 @@ Multichar_Symbols
 %{j%}
 %{V%} 
 %{o%}
+%{e%}
 
 @U.P_PRS.1@
 @U.P_PRS.2@
@@ -87,27 +88,27 @@ ASP-PREF ;
 
 LEXICON K 
 
-%+ix%<adv%>:%>ix # ; 
-                 # ;
+%+ix%<adv%>:%>ix                             # ; 
+                                             # ;
 
 LEXICON PERS-ABS-IV-12
 
-%<s_sg1%>:%>on # ; 
-%<s_sg2%>:%>at # ; 
-%<s_pl1%>:%>otik # ; 
-%<s_pl2%>:%>ex # ; 
+%<s_sg1%>:%>on                               K ; 
+%<s_sg2%>:%>at                               K ; 
+%<s_pl1%>:%>otik                             K ; 
+%<s_pl2%>:%>ex                               K ; 
 
 LEXICON PERS-ABS-IV
-%<s_sg3%>:%> # ; 
-%<s_pl3%>:%> # ; 
-%<s_pl3%>:%>ik # ; 
+%<s_sg3%>:%>                                 K ; 
+%<s_pl3%>:%>                                 K ; 
+%<s_pl3%>:%>ik                               K ; 
 
-PERS-ABS-IV-12 ; 
+                                             PERS-ABS-IV-12 ; 
 
 LEXICON PERS-ABS 
 
-PERS-ABS-TV-1 ; 
-PERS-ABS-TV-23 ; 
+                                             PERS-ABS-TV-1 ; 
+                                             PERS-ABS-TV-23 ; 
 
 LEXICON PERS-ABS-TV-1                       ! Conjunto B
 @U.S_NBR.SG@%<o_sg1%>:@U.S_NBR.SG@%>on      K ; 
@@ -120,6 +121,11 @@ LEXICON PERS-ABS-TV-23                      ! Conjunto B
 @U.S_NBR.PL@%<o_sg2%>:@U.S_NBR.PL@%>at%>ik  K ; 
             %<o_pl2%>:%>ex                  K ; 
             %<o_sg3%>:%>                    K ; 
+
+LEXICON PERS-ABS-TV-13
+                                            PERS-ABS-TV-1 ; 
+            %<o_sg3%>:%>                    K ; 
+            %<o_pl3%>:%>ik # ; 
 
 LEXICON PERS-ERG-PREF                       ! Conjunto A 
 
@@ -135,14 +141,14 @@ LEXICON PERS-ERG-1-SUFF                     ! Conjunto A
 
 LEXICON PERS-ERG-2-SUFF                     ! Conjunto A
 
-@U.S_NBR.SG@%<s_sg2%>:@U.S_NBR.SG@%>        PERS-ABS-TV-1 ; 
-@U.S_NBR.PL@%<s_pl2%>:@U.S_NBR.PL@%>        PERS-ABS-TV-1 ; 
+@U.S_NBR.SG@%<s_sg2%>:@U.S_NBR.SG@%>        PERS-ABS-TV-13 ; 
+@U.S_NBR.PL@%<s_pl2%>:@U.S_NBR.PL@%>        PERS-ABS-TV-13 ; 
 
 LEXICON PERS-ERG-3-SUFF                     ! Conjunto A 
 
-@U.S_NBR.SG@%<s_sg3%>:@U.S_NBR.SG@%>        PERS-ABS-TV-1 ; 
+@U.S_NBR.SG@%<s_sg3%>:@U.S_NBR.SG@%>        PERS-ABS-TV-13 ; 
 @U.S_NBR.SG@%<s_sg3%>:@U.S_NBR.SG@%>        PERS-ABS-TV-23 ; 
-@U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>        PERS-ABS-TV-1 ; 
+@U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>        PERS-ABS-TV-13 ; 
 @U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>        PERS-ABS-TV-23 ; 
 @U.S_NBR.PL@%<s_pl3%>:@U.S_NBR.PL@%>ik      PERS-ABS-TV-23 ;  ! FIXME: Comprobar
 
@@ -181,8 +187,8 @@ LEXICON POSS
 !s-nah “his house”
 
 @U.P_PRS.1@:@U.P_PRS.1@%{j%}%> Sustantivos ; 
-@U.P_PRS.2@:@U.P_PRS.2@ʼa%> Sustantivos ; 
-@U.P_PRS.2@:@U.P_PRS.2@a%> Sustantivos ; 
+@U.P_PRS.2@:@U.P_PRS.2@ʼa%{w%}%> Sustantivos ; 
+@U.P_PRS.2@:@U.P_PRS.2@a%{w%}%> Sustantivos ; 
 @U.P_PRS.3@:@U.P_PRS.3@%{s%}%> Sustantivos ; 
 
 LEXICON ASP-SUFF-IV
@@ -220,6 +226,17 @@ LEXICON E
 %+e%<def%>:%>e # ; 
                # ; 
 
+LEXICON POSS-SUFF-NOE
+
+@U.P_PRS.1@%<px1sg%>:@U.P_PRS.1@ # ; 
+@U.P_PRS.2@%<px2sg%>:@U.P_PRS.2@ # ; 
+@U.P_PRS.3@%<px3sg%>:@U.P_PRS.3@ # ; 
+@U.P_PRS.1@%<px1pl%>%<in%>:@U.P_PRS.1@%>tik # ; 
+@U.P_PRS.1@%<px1pl%>%<ex%>:@U.P_PRS.1@%>kotik # ; 
+@U.P_PRS.2@%<px2pl%>:@U.P_PRS.2@%>ik # ; 
+@U.P_PRS.3@%<px3pl%>:@U.P_PRS.3@%>ik # ; 
+
+
 LEXICON POSS-SUFF
 
 @U.P_PRS.1@%<px1sg%>:@U.P_PRS.1@ E ; 
@@ -247,6 +264,7 @@ LEXICON N-krisyano                               !
 LEXICON N-tat                                   ! Inalienable 
 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
+@D.P_PRS@%<n%>:@D.P_PRS@%>il   E ; 
 
 LEXICON N-pueblo                                ! Sustantivos prestados
 
@@ -274,6 +292,14 @@ LEXICON N-atimal                                ! Sustantivos de acción
 @D.P_PRS@%<n%>%<actio%>:@D.P_PRS@ E ; 
 @R.P_PRS@%<n%>%<actio%>:@R.P_PRS@ POSS-SUFF  ; 
 
+LEXICON N-coll
+
+@D.P_PRS@%<n%>%<coll%>:@D.P_PRS@ E ; 
+@D.P_PRS@%<n%>%<coll%>:@D.P_PRS@      COP-SUFF-N ; 
+@R.P_PRS@%<n%>%<coll%>:@R.P_PRS@ POSS-SUFF  ; 
+
+
+
 
 LEXICON PRON-QNT
 
@@ -289,7 +315,7 @@ LEXICON PRON-IND
 
 LEXICON PRON-PERS 
 
-%<prn%>%<pers%>: POSS-SUFF ; 
+%<prn%>%<pers%>: POSS-SUFF-NOE ; 
 
 LEXICON NP-TOP
 
@@ -320,10 +346,28 @@ LEXICON A-pukuj
 @D.P_PRS@%<adj%>%<attr%>:@D.P_PRS@%>il # ; 
 @R.P_PRS@%<adj%>%<subst%>:@R.P_PRS@%>il POSS-SUFF ; 
 
+LEXICON A-pʼots
+
+@D.P_PRS@%<adj%>%<pred%>:@D.P_PRS@ # ; 
+
+LEXICON A-chʼul
+
+@D.P_PRS@%<adj%>%<attr%>:@D.P_PRS@ # ; 
+
 LEXICON A-babi
 
 @D.P_PRS@%<adj%>%<ord%>:@D.P_PRS@ # ; 
 @R.P_PRS@%<adj%>%<ord%>:@R.P_PRS@ POSS-SUFF ; 
+
+
+LEXICON CS
+
+%<cnjsub%>: # ; 
+
+
+LEXICON CA
+
+%<cnjadv%>: # ; 
 
 
 LEXICON CC
@@ -342,6 +386,25 @@ LEXICON NUM
 
 %<num%>: # ;
 
+LEXICON CLASS
+
+%+ajkʼ%<clf%>:%>ajkʼ # ;   ! momento
+%+bus%<clf%>:%>bus # ;     ! montón
+%+al%<clf%>:%>al # ;     ! actos de decir
+%+aw%<clf%>:%>aw # ;     ! actos de sembrar
+%+bahl%<clf%>:%>bahl # ;     ! cilíndricos 
+%+bahl%<clf%>:%>bal # ;     ! cilíndricos
+%+bahkʼ%<clf%>:%>bahkʼ # ;     ! cuatrocientos
+%+bahn%<clf%>:%>bahn # ;     !troncos 
+
+LEXICON NUM-cheb
+
+%<num%>:%>%{e%}b # ;
+%<num%>: CLASS ;
+
+
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Miscellaneous
@@ -351,6 +414,9 @@ la%<perf%>:la # ;
 la%<perf%>:a # ; 
 bal%<qst%>:bal # ;
 laj%<aux%>:laj # ; ! ""
+laj%<aux%>:la # ; ! ""
+
+akʼa%<aux%>:akʼa # ; ! ""
 
 yakal%<aux%>:yakal PERS-ABS-IV ; ! ""
 
@@ -367,12 +433,18 @@ maʼ%<neg%>:ma # ; ! "no"
 
 sok%<pr%>:sok # ; ! "con"
 
+laj%<part%>:laj # ; ! "dicen que"
+laj%<part%>:la # ; ! "dicen que"
+
 manchuk%<part%>:manchuk # ; ! "aunque"
 
 LEXICON Conjunciones
 
 me:me CC ; ! "o"
 tame:tame CC ; ! "o"
+
+kʼalal:kʼalal CA ; ! "cuando"
+te:te CS ; ! "que"
 
 LEXICON Relacionales 
 
@@ -411,15 +483,19 @@ ahkʼolal:akʼolal N-bah ; ! ""
 LEXICON Determinantes
 
 te%<det%>:te # ; 
+jayeb%<det%>%<itg%>:jayeb # ; 
 
 LEXICON Interrogativos
 
 bin:bin PRON-ITG ; ! "qué"
 machʼa:machʼa PRON-ITG ; ! "quién"
+tut:tut PRON-ITG ; ! "qué" 
 
 LEXICON Pronombres 
 
 tukel:tukel PRON-PERS ; 
+haʼ:haʼ PRON-PERS ; 
+haʼ:jaʼ PRON-PERS ; 
 pisil:pisil PRON-QNT ; 
 
 @D.P_PRS@machʼayuk:@D.P_PRS@machʼauk PRON-IND ; 
@@ -427,7 +503,27 @@ pisil:pisil PRON-QNT ;
 
 LEXICON Números 
 
-jun:jun NUM ; ! "uno"
+jun:jun                     NUM ; ! "uno"
+cheb:chaʼ                   NUM-cheb ; ! "dos"
+oxeb:ox                     NUM-cheb ; ! "tres"
+chaneb:chan                 NUM-cheb ; ! "cuatro"
+ho'eb:hoʼ                   NUM-cheb ; ! "cinco"
+wakeb:wak                   NUM-cheb ; ! ""
+hukeb:huk                   NUM-cheb ; ! ""
+waxakeb:waxak               NUM-cheb ; ! ""
+baluneb:balun               NUM-cheb ; ! ""
+lajuneb:lajun               NUM-cheb ; ! ""
+buhlucheb:buhluch           NUM-cheb ; ! ""
+lajchayeb:lajchay           NUM-cheb ; ! ""
+oxlajuneb:oxlajun           NUM-cheb ; ! ""
+chanlajuneb:chanlajun       NUM-cheb ; ! ""
+ho'lajuneb:ho'lajun         NUM-cheb ; ! ""
+waklajuneb:waklajun         NUM-cheb ; ! ""
+huklajuneb:huklajun         NUM-cheb ; ! ""
+waxaklajuneb:waxaklajun     NUM-cheb ; ! ""
+balunlajuneb:balunlajun     NUM-cheb ; ! ""
+jtahb:jtahb                 NUM ; ! "veinte"
+
 
 LEXICON Sustantivos 
 
@@ -911,6 +1007,14 @@ atin:atin N-atimal ; ! "baño" ! Verb/atin
 siʼwej:siʼwej N-atimal ; ! "leñar" ! Noun/siʼ ! Dial/Cen
 siʼbej:siʼbej N-atimal ; ! "leñar" ! Noun/siʼ ! Dial/Sur
 
+lajib:lajib N ; ! ""
+sibak:sibak N ; ! "cohete"
+es:es N ; ! "utilidad"
+jʼabat:jʼabat N ; ! "ayudante"
+
+nichim:nichimaltik N-coll ; ! ""
+ixim:iximaltik N-coll ; ! ""
+
 LEXICON Propios
 
 Israel:Israel NP-TOP ; ! ""
@@ -948,6 +1052,9 @@ antiwo:antiwo A-antiwo ; ! "antiguo"
 pukuj:pukuj A-pukuj ; ! "malo"
 pukuj:pukuh A-pukuj ; ! "malo"
 
+pʼots:pʼots A-pʼots ; ! ""
+chʼul:chʼul A-chʼul ; ! ""
+
 
 LEXICON Adverbios 
 
@@ -966,6 +1073,8 @@ tsʼin:tsʼin ADV ; ! "al rato"
 
 kohel:kohel ADV ; ! "abajo"
 kohel:koel ADV ; ! "abajo"
+
+to:to ADV ; ! "todavía"
 
 LEXICON TV
 
@@ -989,7 +1098,8 @@ al:al V-TV ; ! "decir"
 kaʼ:kaʼ V-TV ; ! "romper, quebar"
 kaʼj:kaʼj V-TV ; ! "quebar"
 
-ʼaʼiy:ʼaʼiy V-TV ; ! "entender, oír"
+aʼiy:ʼaʼiy V-TV ; ! "entender, oír, probar" ! Véase §6.4.7
+aʼiy:aʼiy V-TV ; ! "entender, oír, probar" ! Véase §6.4.7
 ʼakʼ:ʼakʼ V-TV ; ! "dar"
 chon:chon V-TV ; ! "vender"
 ʼehan:ʼehan V-TV ; ! "carry corn"
@@ -1405,6 +1515,10 @@ tsʼup:tsʼup V-TV ; ! "atravesar"
 poxtay:poxtay V-TV ; ! "curar"
 
 matsʼ:matsʼ V-TV ; ! "masticar"
+lajin:lajin V-TV ; ! "terminar"
+
+kʼopon:kʼopon V-TV ; ! "hablarle a"
+ahtay:ahtay V-TV ; ! "contar"
 
 LEXICON IV 
 
@@ -1483,26 +1597,7 @@ xinub:xinub  V-IV ; ! "ponerse rancio"
 
 tojob:tojob V-IV ; ! "enderezarse"
 
-
-!i. ya    h-tʼun-at      I am following you                                   *
-!iv. ya   h-tʼun-tik-0   We are following him                                 *
-!v. ya    h-tʼun-tik-at  We are following you                                 * 
-!vii. ya  h-tʼun-tik-ex  We are following you (pl.)                           * 
-!ii. ya   a-tʼun-on      You are following me                                 *  
-!vi. ya   a-tʼun-otik    You are following us /or/ you (pl.) are following us *  * 
-!viii. ya a-tʼun-on-ik   You (pl.) are following me                           *
-!iii. ya  s-tʼun-otik    He is following us        
-!ix. ya   s-tʼun-at-ik   They are following you
-
-!i. ya hk-il-at I see you
-!ii. ya aw-il-on You see me
-!iii. ya y-il-otik He sees us
-!iv. ya hk-il-tik-0 We see him
-!v. ya hk-il-tik-at We see you
-!vi. ya aw-il-otik You see us or You (pl.) see us
-!vii. ya hk-il-tik-ex We see you (pl.)
-!viii. ya aw-il-on-ik You (pl.) see me
-!ix. ya y-il-at-ik They see you 
+tʼohm:tʼohm V-IV ; ! "explotar"
 
 LEXICON Punctuación
 

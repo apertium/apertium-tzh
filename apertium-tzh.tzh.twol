@@ -5,6 +5,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ʼ
 %{s%}:s %{s%}:y
 %{j%}:j %{j%}:k
 %{h%}:h %{h%}:0
+%{e%}:e
 %{w%}:w %{w%}:0
 %{a%}:a %{a%}:0
 %{o%}:o %{o%}:e
