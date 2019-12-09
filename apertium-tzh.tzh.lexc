@@ -880,6 +880,10 @@ alal:alal N ; ! "bebé"
 
 weʼel:weʼel N ; ! "comida"
 matsʼ:matsʼ N ; ! "masa"
+taj:taj N ; ! "ocote"
+tah:tah N ; ! "navaja"
+wenta:wenta N ; ! "cuenta"
+wentail:wentail N ; ! "significado" ! FIXME: Pos.Marc.: -il significado, sentido ◊ ¿bi swentail i waj i ya amuk ta lumi? [CA] ‘¿qué significa la tortilla que entierras en el suelo?’
 
 ! pʼahl / pʼahl [alt. Pʼ, H: pʼal, OX bal] c.n. para contar palabras ◊ jpʼahl nax kʼop [ PE ] ‘sólo una palabraʼ
 
@@ -990,6 +994,8 @@ pay:pay V-TV ; ! "boil"
 sap:sap V-TV ; ! "wash"
 suhtes:suhtes V-TV ; ! "return (something)"
 tah:tah V-TV ; ! "find"
+tah:taj V-TV ; ! "find"
+tah:ta V-TV ; ! "find"
 tes:tes V-TV ; ! "comb"
 tij:tij V-TV ; ! "touch"
 toj:toj V-TV ; ! "pay"
