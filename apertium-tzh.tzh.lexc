@@ -384,6 +384,11 @@ LEXICON ADV
 
 %<adv%>: # ; 
 
+LEXICON ADV-dir
+
+%<adv%>: # ; 
+
+
 LEXICON ADV-ITG
 
 %<adv%>%<itg%>: # ; 
@@ -402,6 +407,9 @@ LEXICON NUM-cheb
 %<num%>:%>%{e%}b # ;
 %<num%>%+:%> CLASS ;
 
+LEXICON NUM-jujun
+
+%<num%>: # ;
 
 LEXICON CLASS
 
@@ -604,8 +612,10 @@ ix%<adv%>:ix # ; ! "ya"
 
 ta%<pr%>:ta # ; 
 
-ʼay%<part%>:ʼay # ; ! "hay"
-ʼay%<part%>:ay # ; ! "hay"
+ay%<pred%>:ʼay # ; ! "hay"
+ay%<pred%>:ay # ; ! "hay"
+chikan%<pred%>:chikan # ; ! "hay"
+tikʼ%<pred%>:tikʼ # ; ! "hay"
 maʼyuk%<part%>%<neg%>:maʼyuk # ; ! "no hay"
 
 maʼ%<neg%>:maʼ # ; ! "no"
@@ -620,10 +630,14 @@ manchuk%<part%>:manchuk # ; ! "aunque"
 
 utʼil%<elem%>:utʼil # ; ! "como"
 
+abi%<adv%>:abi # ; ! "pues"
+
 LEXICON Conjunciones
 
 me:me CC ; ! "o"
 tame:tame CC ; ! "o"
+sok:sok CC ; ! "y"
+i:i CC ; ! "y"
 
 te:te CS ; ! "que"
 
@@ -667,6 +681,7 @@ ahkʼolal:akʼolal N-bah ; ! ""
 LEXICON Determinantes
 
 te%<det%>:te # ; 
+me%<dem%>:me # ; 
 jayeb%<det%>%<itg%>:jayeb # ; 
 
 LEXICON Interrogativos
@@ -707,6 +722,8 @@ huklajuneb:huklajun         NUM-cheb ; ! ""
 waxaklajuneb:waxaklajun     NUM-cheb ; ! ""
 balunlajuneb:balunlajun     NUM-cheb ; ! ""
 jtahb:jtahb                 NUM ; ! "veinte"
+
+jujun:jujun                 NUM-jujun ; ! ""
 
 LEXICON Sustantivos 
 
@@ -1220,6 +1237,19 @@ ixim:iximaltik N-coll ; ! ""
 tsʼihb:tsʼihb N ; ! "escritura"
 tsʼihb:tsʼib N ; ! "escritura"
 
+ahtal:ahtal N ; ! "número"
+ahtal:ajtal N ; ! "número"
+
+ahkʼabal:ahkʼabal N ; ! "noche"
+ahkʼabal:ajkʼabal N ; ! "noche"
+ahkʼabal:akʼabal N ; ! "noche"
+ahkʼabal:ajkʼubal N ; ! "noche"
+ahkʼabal:ajkʼobal N ; ! "noche"
+ahkʼabal:ajkʼbal N ; ! "noche"
+ahkʼabal:akʼobal N ; ! "noche"
+ahkʼabal:akʼabal N ; ! "noche"
+ahkʼabal:ʼajkʼubal N ; ! "noche"
+
 LEXICON Propios
 
 Israel:Israel NP-TOP ; ! ""
@@ -1263,6 +1293,8 @@ kʼixin:kʼixin A ; ! "caliente"
 bikʼit:bikʼit A ; ! "pequeño"
 namey:namey A ; ! "antiguo"
 namey:namej A ; ! "antiguo"
+
+jujuntik:jujuntik A ; ! "cada"
 
 yan:yan A-sik ; ! "otro, diferente"
 sakʼ:sakʼ A-sik ; ! "irritante"
@@ -1319,6 +1351,7 @@ ahnumal:ahnumal ADV ; ! ""
 ajkʼ:ajkʼ ADV ; ! ""
 ajkʼaltsʼin:ajkʼaltsʼin ADV ; ! ""
 ajkʼubaltik:ajkʼubaltik ADV ; ! ""
+ajkʼubaltik:ʼajkʼubaltik ADV ; ! ""
 ajkʼubey:ajkʼubey ADV ; ! ""
 ak:ak ADV ; ! ""
 akʼol:akʼol ADV ; ! ""
@@ -1340,6 +1373,7 @@ desgraciado:desgraciado ADV ; ! ""
 ehuk:ehuk ADV ; ! ""
 ek:ek ADV ; ! ""
 hich:hich ADV ; ! ""
+hich:jich ADV ; ! ""
 hichilan:hichilan ADV ; ! ""
 hip:hip ADV ; ! ""
 howil:howil ADV ; ! ""
@@ -1449,6 +1483,13 @@ namey:nameje ADV ; ! "antes"
 
 kʼojkol:kʼojkol ADV ; ! "cabeza volteada"
 kohkoltsaʼ:kohkoltsaʼ ADV ; ! ""
+
+bahel:bahel ADV-dir ; ! ""
+bahel:bajel ADV-dir ; ! ""
+bahel:bael ADV-dir ; ! ""
+bahel:bel ADV-dir ; ! ""
+bahel:beel ADV-dir ; ! ""
+bahel:bal ADV-dir ; ! ""
 
 LEXICON TV
 
@@ -1988,6 +2029,9 @@ bah:baht V-IV ; ! "irse"
 bah:bajt V-IV ; ! "irse"
 
 pas:pas V-IV ; ! "hacerse"
+
+ahtalaj:ahtalaj V-IV ; ! "contar"
+ahtalaj:ajtalaj V-IV ; ! "contar"
 
 LEXICON Punctuación
 
