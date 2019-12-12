@@ -56,6 +56,7 @@ Multichar_Symbols
 @R.TAM.Impf@
 @P.TAM.Past@
 @R.TAM.Past@
+@D.TAM@
 
 @P.Val.Pass@
 @R.Val.Pass@
@@ -91,17 +92,28 @@ LEXICON K
 %+ix%<adv%>:%>ix                             # ; 
                                              # ;
 
+LEXICON CLIT
+
+%+e%<cnjsub%>:%>e                            # ; 
+                                             # ;
+                                             K ; 
+
+LEXICON CLIT-IRR
+
+%<irr%>:%>uk                                 # ;
+                                             # ;
+
 LEXICON PERS-ABS-IV-12
 
-%<s_sg1%>:%>on                               K ; 
-%<s_sg2%>:%>at                               K ; 
-%<s_pl1%>:%>otik                             K ; 
-%<s_pl2%>:%>ex                               K ; 
+%<s_sg1%>:%>on                               CLIT ; 
+%<s_sg2%>:%>at                               CLIT ; 
+%<s_pl1%>:%>otik                             CLIT ; 
+%<s_pl2%>:%>ex                               CLIT ; 
 
 LEXICON PERS-ABS-IV
-%<s_sg3%>:%>                                 K ; 
-%<s_pl3%>:%>                                 K ; 
-%<s_pl3%>:%>ik                               K ; 
+%<s_sg3%>:%>                                 CLIT ; 
+%<s_pl3%>:%>                                 CLIT ; 
+%<s_pl3%>:%>ik                               CLIT ; 
 
                                              PERS-ABS-IV-12 ; 
 
@@ -111,20 +123,20 @@ LEXICON PERS-ABS
                                              PERS-ABS-TV-23 ; 
 
 LEXICON PERS-ABS-TV-1                       ! Conjunto B
-@U.S_NBR.SG@%<o_sg1%>:@U.S_NBR.SG@%>on      K ; 
-@U.S_NBR.PL@%<o_sg1%>:@U.S_NBR.PL@%>on%>ik  K ; 
+@U.S_NBR.SG@%<o_sg1%>:@U.S_NBR.SG@%>on      CLIT ; 
+@U.S_NBR.PL@%<o_sg1%>:@U.S_NBR.PL@%>on%>ik  CLIT ; 
 %<o_pl1%>:%>otik # ; 
 
 LEXICON PERS-ABS-TV-23                      ! Conjunto B
 
-@U.S_NBR.SG@%<o_sg2%>:@U.S_NBR.SG@%>at      K ; 
-@U.S_NBR.PL@%<o_sg2%>:@U.S_NBR.PL@%>at%>ik  K ; 
-            %<o_pl2%>:%>ex                  K ; 
-            %<o_sg3%>:%>                    K ; 
+@U.S_NBR.SG@%<o_sg2%>:@U.S_NBR.SG@%>at      CLIT ; 
+@U.S_NBR.PL@%<o_sg2%>:@U.S_NBR.PL@%>at%>ik  CLIT ; 
+            %<o_pl2%>:%>ex                  CLIT ; 
+            %<o_sg3%>:%>                    CLIT ; 
 
 LEXICON PERS-ABS-TV-13
                                             PERS-ABS-TV-1 ; 
-            %<o_sg3%>:%>                    K ; 
+            %<o_sg3%>:%>                    CLIT ; 
             %<o_pl3%>:%>ik # ; 
 
 LEXICON PERS-ERG-PREF                       ! Conjunto A 
@@ -195,6 +207,7 @@ LEXICON ASP-SUFF-IV
 
 @R.TAM.Impf@%<impf%>:@R.TAM.Impf@ PERS-ABS-IV ; 
 @R.TAM.Past@%<past%>:@R.TAM.Past@%>em PERS-ABS-IV ; 
+@R.TAM.Past@%<exho%>:@R.TAM.Past@%>uk PERS-ABS-IV ; 
 
 LEXICON ASP-SUFF-TV
 
@@ -263,6 +276,11 @@ LEXICON N-krisyano                               !
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
 
 LEXICON N-tat                                   ! Inalienable 
+
+@R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
+@D.P_PRS@%<n%>:@D.P_PRS@%>il   E ; 
+
+LEXICON N-pantalon                              ! 
 
 @R.P_PRS@%<n%>:@R.P_PRS@ POSS-SUFF  ; 
 @D.P_PRS@%<n%>:@D.P_PRS@%>il   E ; 
@@ -536,6 +554,8 @@ puhkʼ%<clf%>:puhkʼ # ; ! "actos de batir" # ; ![alt. H: pujkʼ]
 pujk%<clf%>:pujk  # ; ! "actos de dispersar algo" # ; ![TP]  
 pux%<clf%>:pux # ; ! "" # ; ! dobleces, número de veces en que se dobla algo sobre sí mismo; para cosas dobladas
 pʼahl%<clf%>:pʼahl  # ; ! "palabras" # ; ![alt. Pʼ, H: pʼal, OX bal]  
+pʼahl%<clf%>:pʼal  # ; ! "palabras" # ; 
+pʼahl%<clf%>:bal  # ; ! "palabras" # ; 
 pʼehch%<clf%>:pʼehch  # ; ! "pequeñas cantidades (de granos, plátano, zacate) contenidas en un costal" # ; ![PE]  
 pʼej%<clf%>:pʼej  # ; ! "cosas pequeñas y esféricas, hebras de hilo, montañas, árboles (⇒pʼij3); en habla" # ; ![AM, TP]  
 pʼij%<clf%>:pʼij # ; ! "cosas pequeñas y esféricas (grano, piedrita, huevo, letra), o al menos con" # ; ![alt. Pʼ: OX bij]  (1) 
@@ -607,6 +627,8 @@ laj%<aux%>:la # ; ! ""
 akʼa%<aux%>:akʼa # ; ! ""
 
 yakal%<aux%>:yakal PERS-ABS-IV ; ! ""
+yakal%<aux%>:yak PERS-ABS-IV ; ! ""
+yakal%<aux%>:yak CLIT-IRR ; ! ""
 
 ix%<adv%>:ix # ; ! "ya"
 
@@ -617,6 +639,7 @@ ay%<pred%>:ay # ; ! "hay"
 chikan%<pred%>:chikan # ; ! "hay"
 tikʼ%<pred%>:tikʼ # ; ! "hay"
 maʼyuk%<part%>%<neg%>:maʼyuk # ; ! "no hay"
+maʼyuk%<part%>%<neg%>:mayuk # ; ! "no hay"
 
 maʼ%<neg%>:maʼ # ; ! "no"
 maʼ%<neg%>:ma # ; ! "no"
@@ -1140,7 +1163,7 @@ yuy:yuy N ; ! "yuyo"
 lum:lum N-lum ; ! ""
 
 pueblo:pueblo N-pueblo ; ! "pueblo"
-pantalon:pantalon N-pueblo ; ! ""
+pantalon:pantalon N-pantalon ; ! ""
 raya:raya N-pueblo ; ! ""
 kusina:kusina N-pueblo ; ! ""
 animal:animal N-pueblo ; ! ""
@@ -1187,6 +1210,7 @@ kerem:kerem N ; ! "muchacho"
 kera:kera N ; ! "guerra"
 
 tsotsil:tsotsil N ; ! "pelo"
+tsots:tsots N ; ! "pelo"
 alal:alal N ; ! "bebé"
 
 weʼel:weʼel N ; ! "comida"
@@ -1406,18 +1430,17 @@ komol:komol ADV ; ! ""
 kʼotel:kʼotel ADV ; ! ""
 kʼunkʼun:kʼunkʼun ADV ; ! ""
 laba:laba ADV ; ! ""
-loc.:loc. ADV ; ! ""
 lom:lom ADV ; ! ""
 lum:lum ADV ; ! ""
 mas:mas ADV ; ! ""
 mero:mero ADV ; ! ""
 mukem:mukem ADV ; ! ""
-muken:muken ADV ; ! ""
+muken:muken ADV ; ! "" ! adv.inc.
 mukin:mukin ADV ; ! ""
 najkʼa:najkʼa ADV ; ! ""
 najka:najka ADV ; ! ""
 nal:nal ADV ; ! ""
-namal(Pl.namajtik):namal(Pl.namajtik) ADV ; ! ""
+namal:namal ADV ; ! ""
 namey:namey ADV ; ! ""
 namik:namik ADV ; ! ""
 nam:nam ADV ; ! ""
@@ -1941,6 +1964,12 @@ pahkan:pajkʼan V-TV ; ! "acostar boca abajo"
 
 ichʼ:ichʼ V-TV ; ! "tomar"
 
+yak:yak V-TV ; ! ""
+
+pʼahlan:pʼahlan V-TV ; ! "decir"
+pʼahlan:pʼalan V-TV ; ! "decir"
+pʼahlan:balan V-TV ; ! "decir"
+
 LEXICON IV 
 
 takʼ:takʼ V-IV ; ! "poder"  ! §6.4.1
@@ -2032,6 +2061,8 @@ pas:pas V-IV ; ! "hacerse"
 
 ahtalaj:ahtalaj V-IV ; ! "contar"
 ahtalaj:ajtalaj V-IV ; ! "contar"
+
+chʼab:chʼab V-IV ; ! "callarse"
 
 LEXICON Punctuación
 
