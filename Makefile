@@ -1,4 +1,4 @@
-all: tzh.gen.hfst tzh.mor.hfst tzh.mor.hfstol
+all: tzh.rlx.bin tzh.gen.hfst tzh.mor.hfst tzh.mor.hfstol
 
 tzh.mor.hfstol: tzh.mor.hfst 
 	hfst-fst2fst -w $< -o $@
@@ -24,3 +24,6 @@ tzh.seg.hfst: tzh.mor.hfst tzh.gen.hfst
 
 tzh.spellrelax.hfst: apertium-tzh.tzh.spellrelax 
 	hfst-regexp2fst -S -o $@ < $<
+
+tzh.rlx.bin: apertium-tzh.tzh.rlx
+	cg-comp $< $@

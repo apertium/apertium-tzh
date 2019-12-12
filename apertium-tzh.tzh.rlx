@@ -1,0 +1,8 @@
+DELIMITERS = "<.>" ;
+
+LIST Pred = pred ; 
+
+SECTION
+
+
+REMOVE Pred ; 
