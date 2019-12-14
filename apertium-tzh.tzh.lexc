@@ -1274,6 +1274,8 @@ ahkʼabal:akʼobal N ; ! "noche"
 ahkʼabal:akʼabal N ; ! "noche"
 ahkʼabal:ʼajkʼubal N ; ! "noche"
 
+kurup:kurup N ; ! ""
+
 LEXICON Propios
 
 Israel:Israel NP-TOP ; ! ""
@@ -1970,6 +1972,10 @@ pʼahlan:pʼahlan V-TV ; ! "decir"
 pʼahlan:pʼalan V-TV ; ! "decir"
 pʼahlan:balan V-TV ; ! "decir"
 
+kʼohtsan:kʼohtsan V-TV ; ! "tirar descuidadamente"
+kʼohtsan:kʼojtsan V-TV ; ! "tirar descuidadamente"
+kʼohtsan:kʼojtsʼan V-TV ; ! "tirar descuidadamente"
+
 LEXICON IV 
 
 takʼ:takʼ V-IV ; ! "poder"  ! §6.4.1
@@ -2063,6 +2069,17 @@ ahtalaj:ahtalaj V-IV ; ! "contar"
 ahtalaj:ajtalaj V-IV ; ! "contar"
 
 chʼab:chʼab V-IV ; ! "callarse"
+
+kʼohtsaj:kʼohtsaj V-IV ; ! "arrumbarse descuidadamente"
+kʼohtsaj:kʼojtsaj V-IV ; ! "arrumbarse descuidadamente"
+kʼohtsaj:kʼojtsʼaj V-IV ; ! "arrumbarse descuidadamente"
+
+ahchʼ:ahchʼ V-IV ; ! "mojarse"
+ahchʼ:ajchʼ V-IV ; ! "mojarse"
+ahchʼ:achʼ V-IV ; ! "mojarse"
+ahchʼ:ʼahchʼ V-IV ; ! "mojarse"
+ahchʼ:ʼajchʼ V-IV ; ! "mojarse"
+ahchʼ:ʼachʼ V-IV ; ! "mojarse"
 
 LEXICON Punctuación
 
