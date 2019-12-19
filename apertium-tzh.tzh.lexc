@@ -325,6 +325,10 @@ LEXICON PRON-QNT
 
 %<prn%>%<qnt%>: POSS-SUFF ; 
 
+LEXICON PRON-REL
+
+%<prn%>%<rel%>: # ; 
+
 LEXICON PRON-ITG
 
 %<prn%>%<itg%>: # ; 
@@ -724,6 +728,7 @@ LEXICON Interrogativos
 
 bin:bin PRON-ITG ; ! "qué"
 machʼa:machʼa PRON-ITG ; ! "quién"
+machʼa:machʼa PRON-REL ; ! "quien"
 tut:tut PRON-ITG ; ! "qué" 
 
 LEXICON Pronombres 
@@ -1174,6 +1179,7 @@ yuy:yuy N ; ! "yuyo"
 
 
 lum:lum N-lum ; ! ""
+bel:bel N-lum ; ! "camino" ! FIXME: comprobar
 
 pueblo:pueblo N-pueblo ; ! "pueblo"
 pantalon:pantalon N-pantalon ; ! ""
@@ -1260,6 +1266,9 @@ behel:bejel N-atimal ; ! ""
 
 paxyal:paxyal N-atimal ; ! "pasear"
 paxyal:paxal N-atimal ; ! "pasear"
+
+haʼiwej:haʼiwej N-atimal ; ! "acto de ir por agua"
+haʼiwej:jaʼwej N-atimal ; ! "acto de ir por agua"
 
 lajib:lajib N ; ! ""
 sibak:sibak N ; ! "cohete"
@@ -1387,6 +1396,7 @@ pukuj:pukuh A-pukuj ; ! "malo"
 
 pʼots:pʼots A-pʼots ; ! ""
 chʼul:chʼul A-chʼul ; ! ""
+chʼul:chʼuhl A-chʼul ; ! ""
 
 jolol:jol A-jolol ; ! "destapado"
 pakal:pak A-jolol ; ! "doblado"
@@ -2571,6 +2581,10 @@ kʼohtsan:kʼojtsʼan V-TV ; ! "tirar descuidadamente"
 
 chʼoj:chʼoj V-TV ; ! "tirar"
 
+utsʼin:utsʼin V-TV ; ! "molestar"
+
+mak:mak V-TV ; ! "cerrar"
+
 LEXICON IV 
 
 takʼ:takʼ V-IV ; ! "poder"  ! §6.4.1
@@ -2654,6 +2668,7 @@ pahkaj:pahkaj V-IV ; ! "acostar boca abajo"
 pahkaj:pajkaj V-IV ; ! "acostar boca abajo"
 pahkaj:pajkʼaj V-IV ; ! "acostar boca abajo"
 
+bah:ba V-IV ; ! "irse" ! FIXME: comprobar
 bah:bah V-IV ; ! "irse"
 bah:baht V-IV ; ! "irse"
 bah:bajt V-IV ; ! "irse"
@@ -2686,6 +2701,10 @@ ahn:an V-IV ; ! "huir"
 
 paxyaj:paxyaj V-IV ; ! "pasear"
 paxyaj:paxaj V-IV ; ! "pasear"
+
+piht:piht V-IV ; ! "apartarse"
+piht:pijt V-IV ; ! "apartarse"
+piht:pijtʼ V-IV ; ! "apartarse"
 
 LEXICON Punctuación
 
