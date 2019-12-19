@@ -52,3 +52,6 @@ Rules
 
 "Remove e -be{y}"
 e:0 <=> _ %{y%}:0 %>: (%>:) [ Vow - i ]  ;
+
+"Verbs beginning with x-"
+x:0 <=> _ %>: x ; 

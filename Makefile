@@ -1,4 +1,4 @@
-all: tzh.rlx.bin tzh.gen.hfst tzh.mor.hfst tzh.mor.hfstol
+all: tzh.rlx.bin tzh.gen.hfst tzh.mor.hfst tzh.mor.hfstol modes/tzh-morph.mode
 
 tzh.mor.hfstol: tzh.mor.hfst 
 	hfst-fst2fst -w $< -o $@
@@ -27,3 +27,6 @@ tzh.spellrelax.hfst: apertium-tzh.tzh.spellrelax
 
 tzh.rlx.bin: apertium-tzh.tzh.rlx
 	cg-comp $< $@
+
+modes/tzh-morph.mode: modes.xml
+	apertium-gen-modes modes.xml

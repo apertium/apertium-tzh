@@ -1,8 +1,17 @@
 DELIMITERS = "<.>" ;
 
 LIST Pred = pred ; 
+LIST Det = det ;
+LIST Def = def ; 
+
+LIST Fin = impf past ; 
+
+LIST Laj = "laj"i ;
 
 SECTION
 
+SELECT Det IF (1/* Def) ;
+
+REMOVE Fin IF (0 Laj) (1C Fin) ;
 
 REMOVE Pred ; 
