@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-quc], [0.1.0], [ftyers@prompsit.com])
+AC_INIT([apertium-tzh], [0.1.0], [ftyers@prompsit.com])
 AM_INIT_AUTOMAKE
 AC_PROG_LN_S
 AC_PROG_AWK
@@ -35,4 +35,4 @@ AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed]
 
 AP_MKINCLUDE
 
-AC_OUTPUT([Makefile apertium-quc.pc])
+AC_OUTPUT([Makefile apertium-tzh.pc])
