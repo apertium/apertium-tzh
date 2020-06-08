@@ -1,0 +1,7 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-tzh
+
+Name: apertium-tzh
+Description: Finite-state morphological transducer and constraint grammar for Tseltal
+Version: @VERSION@
